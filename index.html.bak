@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bicutan Medical Center — Quality Healthcare in Taguig, Open 24/7</title>
+<meta name="description" content="Bicutan Medical Center is a 100-bed private hospital in Taguig City, open 24 hours. Expert specialist doctors, modern diagnostics (2D echo, CT scan), and compassionate, affordable care.">
+<meta name="keywords" content="Bicutan Medical Center, hospital Taguig, 24/7 hospital, specialist doctors Taguig, emergency room, HMO accredited hospital">
+<meta name="author" content="Bicutan Medical Center Inc.">
+<meta name="theme-color" content="#157a40">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bicutan Medical Center — Caring for Life, 24/7">
+<meta property="og:description" content="A 100-bed private hospital in Taguig City with expert specialists and modern facilities. Always open.">
+<meta property="og:image" content="assets/img/background/bg1.jpg">
+<meta property="og:locale" content="en_PH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bicutan Medical Center — Caring for Life, 24/7">
+<meta name="twitter:description" content="Quality, compassionate healthcare in Taguig City. Open 24 hours, every day.">
+<meta name="twitter:image" content="assets/img/background/bg1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="icon" type="image/png" href="assets/img/logo/logo1.png">
+<link rel="apple-touch-icon" href="assets/img/logo/logo1.png">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Hospital",
+  "name":"Bicutan Medical Center Inc.",
+  "description":"A 100-bed private hospital in Taguig City offering 24/7 expert, compassionate, and affordable healthcare.",
+  "image":"assets/img/background/bg1.jpg",
+  "url":"https://bicutanmed.com",
+  "telephone":"+63285381280",
+  "email":"infoadmittingbmci@gmail.com",
+  "medicalSpecialty":["Emergency","Cardiology","Pediatrics","Neurology","Radiology","Oncology","Obstetric","Orthopedic","InternalMedicine"],
+  "address":{"@type":"PostalAddress","streetAddress":"191 M. L. Quezon Avenue","addressLocality":"Taguig","addressRegion":"Metro Manila","postalCode":"1632","addressCountry":"PH"},
+  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "availableService":{"@type":"MedicalProcedure","name":"Emergency Care, 2D Echo, CT Scan, Laboratory, Diagnostics"}
+}
+</script>
+<link rel="preload" as="image" href="assets/img/background/bg1.jpg">
+<!-- Analytics: set GA_ID to your GA4 Measurement ID (e.g. 'G-XXXXXXXXXX') to enable. Inert until then. -->
+<script>
+  window.GA_ID='';
+  if(window.GA_ID){
+    var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config',GA_ID);
+  }
+</script>
+<style>
+:root{
+  --teal:#1f9d55; --teal-dark:#157a40; --teal-light:#e7f6ec;
+  --coral:#f4b400; --coral-dark:#d99a00;
+  --ink:#16271c; --slate:#5d7065; --mist:#f3faf5; --line:#d8ebde;
+  --white:#ffffff; --gold:#f4b400;
+  --shadow:0 10px 40px -12px rgba(31,157,85,.25);
+  --shadow-sm:0 4px 18px -8px rgba(31,157,85,.22);
+  --r:18px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:var(--teal) var(--teal-light)}
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:var(--teal-light)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--teal),var(--teal-dark));border-radius:50px;border:3px solid var(--teal-light)}
+::-webkit-scrollbar-thumb:hover{background:var(--teal-dark)}
+
+/* ===== ENHANCEMENTS ===== */
+/* Skip link (a11y) */
+.skip{position:absolute;left:-999px;top:0;z-index:300;background:var(--teal-dark);color:#fff;padding:12px 20px;border-radius:0 0 12px 0;font-weight:600;font-size:.9rem}
+.skip:focus{left:0}
+/* Visible keyboard focus */
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px;border-radius:4px}
+/* Scroll progress bar */
+.scroll-prog{position:fixed;top:0;left:0;height:4px;width:0;z-index:300;background:linear-gradient(90deg,var(--teal),var(--coral));box-shadow:0 0 10px rgba(31,157,85,.5);transition:width .1s linear}
+/* Back-to-top */
+.to-top{position:fixed;bottom:24px;left:24px;z-index:150;width:50px;height:50px;border-radius:50%;background:var(--teal-dark);color:#fff;border:none;cursor:pointer;box-shadow:0 10px 26px -8px rgba(31,157,85,.6);display:grid;place-items:center;font-size:1.1rem;opacity:0;transform:translateY(20px) scale(.8);pointer-events:none;transition:opacity .3s ease,transform .3s cubic-bezier(.34,1.45,.64,1),background .2s}
+.to-top.show{opacity:1;transform:none;pointer-events:auto}
+.to-top:hover{background:var(--teal);transform:translateY(-3px)}
+@media(max-width:480px){.to-top{bottom:88px;left:16px;width:44px;height:44px}}
+body{font-family:'Outfit',sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Fraunces',serif;line-height:1.1;font-weight:600}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--coral);color:var(--ink);padding:13px 26px;border-radius:50px;font-weight:600;font-size:.95rem;border:none;cursor:pointer;transition:.25s;font-family:'Outfit',sans-serif}
+.btn:hover{background:var(--coral-dark);transform:translateY(-2px);box-shadow:0 10px 24px -8px rgba(244,180,0,.55)}
+.btn-ghost{background:transparent;border:2px solid var(--teal);color:var(--teal)}
+.btn-ghost:hover{background:var(--teal);color:#fff;box-shadow:none}
+
+/* ---------- HEADER ---------- */
+header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:94px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo .logo-mark{width:78px;height:78px;object-fit:contain;flex:none}
+.logo .logo-text{height:42px;width:auto;object-fit:contain}
+.menu{display:flex;gap:6px;list-style:none}
+.menu button{background:none;border:none;font-family:'Outfit';font-size:.9rem;font-weight:500;color:var(--ink);cursor:pointer;padding:9px 15px;border-radius:9px;transition:.2s;letter-spacing:.01em}
+.menu button:hover{background:var(--teal-light);color:var(--teal-dark)}
+.menu button.active{background:var(--teal);color:#fff}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
+.hamburger span{width:26px;height:2.5px;background:var(--ink);border-radius:3px;transition:.3s}
+
+/* ---------- PAGE SYSTEM ---------- */
+.page{display:none;animation:fade .5s ease}
+.page.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+section{padding:78px 0}
+.eyebrow{display:inline-block;color:var(--teal-dark);font-weight:600;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
+.sec-head{max-width:640px;margin:0 auto 52px;text-align:center}
+.sec-head h2{font-size:clamp(2rem,4vw,2.9rem);margin-bottom:14px}
+.sec-head p{color:var(--slate);font-size:1.05rem}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;background:linear-gradient(160deg,var(--teal-light) 0%,#fff 60%);overflow:hidden;padding:70px 0 56px}
+.hero::before{content:"";position:absolute;top:-160px;right:-160px;width:520px;height:520px;background:radial-gradient(circle,rgba(14,124,123,.14),transparent 70%);border-radius:50%}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center;position:relative}
+.hero h1{font-size:clamp(2.4rem,5vw,3.9rem);letter-spacing:-.5px}
+.hero h1 em{font-style:italic;color:var(--teal)}
+.hero p{color:var(--slate);font-size:1.12rem;margin:22px 0 30px;max-width:480px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-stats{display:flex;gap:34px;margin-top:46px}
+.hero-stats .num{font-family:'Fraunces';font-size:2rem;font-weight:700;color:var(--teal-dark)}
+.hero-stats .lbl{font-size:.82rem;color:var(--slate)}
+.hero-art{position:relative}
+.hero-card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);position:relative;height:420px}
+.hero-card .hero-slide{position:absolute;inset:0;height:100%;width:100%;object-fit:cover;opacity:0;transform:scale(1.04);transition:opacity 1.3s ease,transform 6s ease}
+.hero-card .hero-slide.active{opacity:1;transform:scale(1)}
+.badge-float{position:absolute;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:var(--shadow-sm);display:flex;align-items:center;gap:12px}
+.badge-float .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;flex:none}
+.badge-float strong{display:block;font-size:.95rem}
+.badge-float span{font-size:.74rem;color:var(--slate)}
+.bf1{bottom:30px;left:-26px}
+.bf2{top:26px;right:-22px}
+
+/* ---------- FEATURE STRIP ---------- */
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:-50px;position:relative;z-index:5}
+.strip .item{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;box-shadow:var(--shadow-sm);transition:.25s}
+.strip .item:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.strip .ic{width:50px;height:50px;border-radius:14px;background:var(--teal-light);display:grid;place-items:center;color:var(--teal);margin-bottom:14px}
+.strip h4{font-size:1.12rem;margin-bottom:6px}
+.strip p{font-size:.88rem;color:var(--slate)}
+
+/* ---------- CARDS GRID ---------- */
+.grid{display:grid;gap:26px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:30px 26px;transition:.28s;cursor:default}
+.card:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:transparent}
+.card .ic{width:58px;height:58px;border-radius:16px;display:grid;place-items:center;margin-bottom:18px;background:var(--teal-light);color:var(--teal)}
+.card h3{font-size:1.32rem;margin-bottom:10px}
+.card p{color:var(--slate);font-size:.94rem}
+.card ul{list-style:none;margin-top:14px}
+.card li{font-size:.88rem;color:var(--slate);padding:5px 0 5px 24px;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:11px;width:13px;height:13px;border-radius:50%;background:var(--teal-light);border:3px solid var(--teal)}
+
+/* ---------- DOCTORS ---------- */
+.doc-searchbar{max-width:480px;margin:0 auto 26px;display:flex;align-items:center;gap:11px;background:#fff;border:1.5px solid var(--line);border-radius:50px;padding:5px 8px 5px 20px;box-shadow:var(--shadow-sm);transition:box-shadow .2s ease,border-color .2s ease}
+.doc-searchbar:focus-within{border-color:var(--teal);box-shadow:0 0 0 4px rgba(31,157,85,.12)}
+.doc-searchbar i{color:var(--teal);font-size:1rem}
+.doc-searchbar input{flex:1;border:none;outline:none;background:none;font-family:'Outfit';font-size:.95rem;padding:11px 0;color:var(--ink)}
+.doc-searchbar .clr{width:34px;height:34px;border-radius:50%;border:none;background:var(--mist);color:var(--slate);cursor:pointer;flex:none;transition:.2s;display:none}
+.doc-searchbar .clr.show{display:grid;place-items:center}
+.doc-searchbar .clr:hover{background:var(--line);color:var(--ink)}
+.pagination{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:46px;flex-wrap:wrap}
+.pg-btn{min-width:42px;height:42px;padding:0 14px;border:1.5px solid var(--line);background:#fff;border-radius:11px;font-family:'Outfit';font-weight:600;font-size:.92rem;color:var(--slate);cursor:pointer;transition:.2s}
+.pg-btn:hover:not(:disabled){border-color:var(--teal);color:var(--teal-dark);transform:translateY(-2px)}
+.pg-btn.active{background:var(--teal);color:#fff;border-color:var(--teal)}
+.pg-btn:disabled{opacity:.4;cursor:not-allowed}
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:44px}
+.filter-bar button{background:#fff;border:1.5px solid var(--line);padding:9px 20px;border-radius:50px;font-family:'Outfit';font-weight:500;font-size:.86rem;cursor:pointer;transition:.2s;color:var(--slate)}
+.filter-bar button.active,.filter-bar button:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+.doc-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:.28s}
+.doc-card:hover{transform:translateY(-7px);box-shadow:var(--shadow)}
+.doc-photo{height:240px;background:linear-gradient(135deg,var(--teal-light),#fff);position:relative;overflow:hidden}
+.doc-photo img{height:100%;width:100%;object-fit:cover}
+.doc-tag{position:absolute;top:14px;left:14px;background:rgba(255,255,255,.95);color:var(--teal-dark);font-size:.72rem;font-weight:600;padding:5px 12px;border-radius:50px}
+.doc-body{padding:22px}
+.doc-body h3{font-size:1.22rem}
+.doc-spec{color:var(--teal-dark);font-weight:600;font-size:.85rem;margin:4px 0 10px}
+.doc-body p{font-size:.85rem;color:var(--slate);margin-bottom:14px}
+.doc-meta{display:flex;gap:16px;font-size:.78rem;color:var(--slate);border-top:1px solid var(--line);padding-top:14px}
+.doc-meta b{color:var(--ink)}
+
+/* ---------- PATIENTS / accordion + info ---------- */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.accordion .ac-item{border:1px solid var(--line);border-radius:14px;margin-bottom:14px;overflow:hidden;background:#fff}
+.accordion .ac-head{padding:18px 22px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-weight:600;font-size:1rem}
+.accordion .ac-head:hover{background:var(--mist)}
+.accordion .ac-head .pl{font-size:1.4rem;color:var(--teal);transition:.3s}
+.accordion .ac-item.open .pl{transform:rotate(45deg)}
+.accordion .ac-body{max-height:0;overflow:hidden;transition:max-height .35s ease;color:var(--slate);font-size:.92rem}
+.accordion .ac-body p{padding:0 22px 20px}
+.info-card{background:var(--teal);color:#fff;border-radius:22px;padding:36px;box-shadow:var(--shadow)}
+.info-card h3{font-size:1.5rem;margin-bottom:8px;color:#fff}
+.info-card>p{color:rgba(255,255,255,.85);margin-bottom:24px;font-size:.95rem}
+.hours-row{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.18);font-size:.92rem}
+.hours-row:last-child{border:none}
+.hours-row span:last-child{color:#ffd9a0;font-weight:600}
+.visit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.visit-grid .vc{background:var(--mist);border-radius:16px;padding:24px;text-align:center}
+.visit-grid .vc .ic{width:50px;height:50px;margin:0 auto 12px;border-radius:14px;background:#fff;display:grid;place-items:center;color:var(--teal);box-shadow:var(--shadow-sm)}
+.visit-grid .vc h4{font-size:1rem;margin-bottom:6px}
+.visit-grid .vc p{font-size:.83rem;color:var(--slate)}
+
+/* ---------- ABOUT ---------- */
+.about-hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about-hero img{border-radius:22px;height:430px;width:100%;object-fit:cover;box-shadow:var(--shadow)}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:54px}
+.value{text-align:center;padding:30px 22px;border-radius:var(--r);background:var(--mist)}
+.value .ic{width:60px;height:60px;border-radius:50%;background:#fff;display:grid;place-items:center;margin:0 auto 16px;color:var(--teal);box-shadow:var(--shadow-sm)}
+.value h4{font-size:1.18rem;margin-bottom:8px}
+.value p{font-size:.88rem;color:var(--slate)}
+.timeline{max-width:760px;margin:54px auto 0;position:relative;padding-left:34px}
+.timeline::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl-item{position:relative;padding-bottom:30px}
+.tl-item::before{content:"";position:absolute;left:-31px;top:4px;width:16px;height:16px;border-radius:50%;background:var(--coral);border:3px solid #fff;box-shadow:0 0 0 2px var(--coral)}
+.tl-item .yr{font-family:'Fraunces';font-weight:700;color:var(--teal-dark);font-size:1.1rem}
+.tl-item p{color:var(--slate);font-size:.92rem}
+
+/* ---------- CHAT WIDGET ---------- */
+.chat-fab{position:fixed;bottom:24px;right:24px;z-index:150;width:62px;height:62px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;border:none;cursor:pointer;box-shadow:0 12px 30px -8px rgba(31,157,85,.6);display:grid;place-items:center;font-size:1.5rem;transition:transform .25s ease}
+.chat-fab:hover{transform:scale(1.08)}
+.chat-fab .fa-xmark{display:none}
+.chat-open .chat-fab .fa-comment-dots{display:none}
+.chat-open .chat-fab .fa-xmark{display:block}
+.chat-win{position:fixed;bottom:98px;right:24px;z-index:150;width:372px;max-width:calc(100vw - 32px);height:524px;max-height:calc(100vh - 140px);background:#fff;border-radius:22px;box-shadow:0 30px 70px -18px rgba(0,0,0,.42);display:flex;flex-direction:column;overflow:hidden;opacity:0;transform:translateY(22px) scale(.96);pointer-events:none;transition:opacity .3s ease,transform .35s cubic-bezier(.34,1.45,.64,1)}
+.chat-open .chat-win{opacity:1;transform:none;pointer-events:auto}
+.chat-head{background:linear-gradient(135deg,var(--teal-dark),var(--teal));color:#fff;padding:16px 20px;display:flex;align-items:center;gap:12px}
+.chat-head .ava{width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none;overflow:hidden}
+.chat-head .ava img{width:36px;height:36px;object-fit:contain}
+.chat-head h4{color:#fff;font-size:1.05rem;font-family:'Outfit';font-weight:600;line-height:1.2}
+.chat-head .stat{font-size:.75rem;color:rgba(255,255,255,.85);display:flex;align-items:center;gap:6px}
+.chat-head .stat::before{content:"";width:8px;height:8px;border-radius:50%;background:#8affc0;box-shadow:0 0 0 3px rgba(138,255,192,.3)}
+.chat-body{flex:1;overflow-y:auto;padding:18px;display:flex;flex-direction:column;gap:11px;background:var(--mist)}
+.msg{max-width:82%;padding:11px 15px;border-radius:16px;font-size:.9rem;line-height:1.5;animation:fadeUp .35s ease both;word-wrap:break-word}
+.msg.bot{background:#fff;border:1px solid var(--line);border-bottom-left-radius:5px;align-self:flex-start;color:var(--ink)}
+.msg.user{background:var(--teal);color:#fff;border-bottom-right-radius:5px;align-self:flex-end}
+.msg a{color:var(--teal-dark);font-weight:600;text-decoration:underline;cursor:pointer}
+.msg.user a{color:#fff}
+.chat-quick{display:flex;flex-wrap:wrap;gap:8px;padding:0 16px 12px;background:var(--mist)}
+.chat-quick button{background:#fff;border:1.5px solid var(--teal);color:var(--teal-dark);font-family:'Outfit';font-size:.8rem;font-weight:500;padding:8px 13px;border-radius:50px;cursor:pointer;transition:.2s}
+.chat-quick button:hover{background:var(--teal);color:#fff}
+.chat-input{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);background:#fff}
+.chat-input input{flex:1;border:1.5px solid var(--line);border-radius:50px;padding:11px 16px;font-family:'Outfit';font-size:.9rem;outline:none;transition:border-color .2s}
+.chat-input input:focus{border-color:var(--teal)}
+.chat-input button{width:44px;height:44px;border-radius:50%;background:var(--teal);color:#fff;border:none;cursor:pointer;flex:none;transition:.2s}
+.chat-input button:hover{background:var(--teal-dark)}
+.typing{display:flex!important;gap:4px;align-items:center}
+.typing span{width:7px;height:7px;border-radius:50%;background:var(--slate);opacity:.5;animation:chatType 1s infinite}
+.typing span:nth-child(2){animation-delay:.2s}
+.typing span:nth-child(3){animation-delay:.4s}
+@keyframes chatType{0%,100%{transform:translateY(0);opacity:.4}50%{transform:translateY(-5px);opacity:1}}
+@media(max-width:480px){.chat-win{bottom:88px;right:16px;left:16px;width:auto;height:72vh}.chat-fab{bottom:18px;right:18px}}
+
+/* ---------- VISION / MISSION / CORE VALUES ---------- */
+.vm-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:30px}
+.vm-card{border-radius:var(--r);padding:38px 34px;position:relative;overflow:hidden}
+.vm-card.vis{background:linear-gradient(150deg,var(--teal-dark),var(--teal));color:#fff}
+.vm-card.mis{background:var(--mist);border:1px solid var(--line)}
+.vm-card::after{content:"";position:absolute;bottom:-70px;right:-50px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(244,180,0,.18),transparent 70%)}
+.vm-card .ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;margin-bottom:18px;position:relative}
+.vm-card.vis .ic{background:rgba(255,255,255,.18);color:#fff}
+.vm-card.mis .ic{background:var(--teal-light);color:var(--teal)}
+.vm-card h3{font-size:1.4rem;margin-bottom:10px;position:relative}
+.vm-card.vis h3{color:#fff}
+.vm-card p{font-size:1rem;line-height:1.6;position:relative}
+.vm-card.vis p{color:rgba(255,255,255,.9)}
+.vm-card.mis p{color:var(--slate)}
+.corevals{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:30px}
+.cv{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:30px 24px;text-align:center;transition:transform .32s cubic-bezier(.34,1.56,.64,1),box-shadow .3s ease}
+.cv:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:transparent}
+.cv .letter{width:64px;height:64px;margin:0 auto 16px;border-radius:18px;background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;font-family:'Fraunces',serif;font-weight:700;font-size:1.9rem;display:grid;place-items:center;box-shadow:var(--shadow-sm)}
+.cv h4{font-size:1.05rem;margin-bottom:8px;letter-spacing:.02em}
+.cv p{font-size:.86rem;color:var(--slate)}
+@media(max-width:860px){.vm-grid{grid-template-columns:1fr}.corevals{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.corevals{grid-template-columns:1fr}}
+
+/* ---------- FEEDBACK FORM ---------- */
+.fb-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:46px;align-items:start}
+.fb-intro h2{font-size:2.3rem;margin-bottom:14px}
+.fb-intro p{color:var(--slate);margin-bottom:26px}
+.fb-points{list-style:none}
+.fb-points li{display:flex;gap:13px;align-items:flex-start;margin-bottom:16px;font-size:.93rem}
+.fb-points .ic{width:34px;height:34px;border-radius:10px;background:var(--teal-light);color:var(--teal);display:grid;place-items:center;flex:none}
+.form{background:#fff;border:1px solid var(--line);border-radius:22px;padding:36px;box-shadow:var(--shadow-sm)}
+.field{margin-bottom:20px}
+.field label{display:block;font-size:.85rem;font-weight:600;margin-bottom:7px}
+.field input,.field select,.field textarea{width:100%;padding:13px 15px;border:1.5px solid var(--line);border-radius:11px;font-family:'Outfit';font-size:.93rem;color:var(--ink);background:var(--mist);transition:.2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--teal);background:#fff;box-shadow:0 0 0 4px rgba(14,124,123,.1)}
+.field textarea{resize:vertical;min-height:110px}
+.field.err input,.field.err select,.field.err textarea{border-color:var(--coral)}
+.err-msg{color:var(--coral-dark);font-size:.78rem;margin-top:5px;display:none}
+.field.err .err-msg{display:block}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stars{display:flex;gap:8px;font-size:1.9rem}
+.stars span{cursor:pointer;color:var(--line);transition:.15s;line-height:1}
+.stars span.on,.stars span:hover{color:var(--gold);transform:scale(1.1)}
+.form-success{display:none;text-align:center;padding:30px 10px}
+.form-success .check{width:74px;height:74px;border-radius:50%;background:var(--teal-light);color:var(--teal);display:grid;place-items:center;margin:0 auto 18px}
+.form-success h3{font-size:1.6rem;margin-bottom:8px}
+.form-success p{color:var(--slate)}
+
+/* ---------- CTA BANNER ---------- */
+.cta-banner{background:linear-gradient(135deg,var(--teal-dark),var(--teal));border-radius:28px;padding:56px;text-align:center;color:#fff;position:relative;overflow:hidden}
+.cta-banner::before{content:"";position:absolute;top:-80px;right:-60px;width:300px;height:300px;background:radial-gradient(circle,rgba(255,255,255,.12),transparent 70%);border-radius:50%}
+.cta-banner h2{font-size:clamp(1.8rem,4vw,2.6rem);color:#fff;margin-bottom:12px;position:relative}
+.cta-banner p{color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;position:relative}
+.cta-banner .btn{position:relative;background:#fff;color:var(--teal-dark)}
+.cta-banner .btn:hover{background:var(--gold);color:var(--ink)}
+
+/* ---------- FOOTER ---------- */
+footer{background:var(--ink);color:rgba(255,255,255,.75);padding:64px 0 26px;margin-top:0}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:40px;margin-bottom:44px}
+.foot-grid .logo{color:#fff;margin-bottom:16px;display:inline-flex;align-items:center;gap:12px;flex-wrap:nowrap}
+.foot-grid .logo small{color:rgba(255,255,255,.55)}
+.foot-grid .logo .logo-mark{width:58px;height:58px}
+.foot-grid .logo .logo-word{font-family:'Fraunces',serif;font-weight:700;font-size:1.5rem;color:#fff;letter-spacing:-.01em;white-space:nowrap}
+.foot-col h5{color:#fff;font-family:'Outfit';font-size:.95rem;margin-bottom:16px;letter-spacing:.04em}
+.foot-col a{cursor:pointer}
+.foot-col a,.foot-col p{display:block;font-size:.88rem;margin-bottom:10px;transition:.2s;color:rgba(255,255,255,.7)}
+.foot-col a:hover{color:var(--gold);padding-left:4px}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.82rem;color:rgba(255,255,255,.5)}
+.emergency{background:linear-gradient(90deg,#0d5a2f,#13713c,#0d5a2f);background-size:200% 100%;animation:gradientShift 16s ease infinite;color:#fff;padding:9px 16px;font-size:.85rem;font-weight:500;display:flex;justify-content:center;align-items:center;gap:10px 14px;flex-wrap:wrap}
+.emergency .ei{display:inline-flex;align-items:center;gap:11px;padding:5px 10px;border-radius:50px;transition:background .2s ease}
+.emergency .ei:hover{background:rgba(255,255,255,.12)}
+.emergency .ei .ei-ic{width:30px;height:30px;border-radius:50%;background:var(--gold);display:grid;place-items:center;flex:none;box-shadow:0 2px 6px -1px rgba(0,0,0,.3)}
+.emergency .ei .ei-ic i{color:#0d5a2f;font-size:.85rem}
+.emergency .ei .ei-txt{display:flex;flex-direction:column;line-height:1.2;text-align:left}
+.emergency .ei .ei-txt b{font-weight:600;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:#ffe1a8}
+.emergency .ei a{font-weight:700;text-decoration:none;color:#fff;font-size:.88rem}
+.emergency .ei a:hover{color:#ffe1a8}
+.emergency .ei-sep{width:1px;height:28px;background:rgba(255,255,255,.25)}
+@media(max-width:680px){.emergency{gap:4px 10px}.emergency .ei-sep{display:none}}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:980px){
+  .hero-grid,.split,.fb-wrap,.about-hero{grid-template-columns:1fr;gap:40px}
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .strip{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
+  .hero-card{height:340px}
+  .bf1{left:10px}.bf2{right:10px}
+}
+@media(max-width:720px){
+  .menu{position:fixed;top:94px;left:0;right:0;background:#fff;flex-direction:column;padding:16px;gap:4px;border-bottom:1px solid var(--line);box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .35s ease;z-index:90}
+  .menu.show{transform:translateY(0)}
+  .menu button{width:100%;text-align:left;padding:14px 16px;font-size:1rem}
+  .hamburger{display:flex}
+  .nav-cta .btn{padding:10px 16px;font-size:.84rem}
+  .hamburger.open span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+  .hamburger.open span:nth-child(2){opacity:0}
+  .hamburger.open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+}
+@media(max-width:560px){
+  section{padding:54px 0}
+  .g3,.g2,.g4,.values,.visit-grid,.strip{grid-template-columns:1fr}
+  .row2{grid-template-columns:1fr}
+  .hero-stats{gap:22px;flex-wrap:wrap}
+  .cta-banner,.info-card,.form{padding:30px 22px}
+  .wrap{padding:0 18px}
+  .foot-grid{grid-template-columns:1fr}
+}
+
+/* ---------- FIND YOUR DOCTOR SEARCH ---------- */
+.docsearch{margin-top:8px;background:linear-gradient(135deg,var(--teal-dark),var(--teal));border-radius:26px;padding:38px 42px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.docsearch::before{content:"";position:absolute;top:-90px;right:-70px;width:300px;height:300px;background:radial-gradient(circle,rgba(255,255,255,.12),transparent 70%);border-radius:50%}
+.docsearch::after{content:"";position:absolute;bottom:-110px;left:-60px;width:260px;height:260px;background:radial-gradient(circle,rgba(244,180,0,.16),transparent 70%);border-radius:50%}
+.ds-head{position:relative;margin-bottom:24px}
+.ds-head .eyebrow{color:#ffd9a0;margin-bottom:8px}
+.ds-head h3{color:#fff;font-size:clamp(1.5rem,3vw,2rem);margin-bottom:6px}
+.ds-head p{color:rgba(255,255,255,.85);font-size:.96rem}
+.ds-form{position:relative;display:grid;grid-template-columns:1.4fr 1fr auto;gap:14px;align-items:stretch}
+.ds-input{display:flex;align-items:center;background:#fff;border-radius:13px;padding:0 16px;gap:11px;transition:box-shadow .2s ease}
+.ds-input:focus-within{box-shadow:0 0 0 4px rgba(255,255,255,.35)}
+.ds-input svg{color:var(--teal);flex:none}
+.ds-input input,.ds-input select{border:none;outline:none;background:none;width:100%;padding:16px 0;font-family:'Outfit';font-size:.95rem;color:var(--ink);cursor:pointer}
+.ds-input input{cursor:text}
+.ds-form .btn{padding:0 32px;white-space:nowrap;justify-content:center}
+@media(max-width:760px){.ds-form{grid-template-columns:1fr}.ds-form .btn{padding:15px}}
+
+/* ---------- HMO PARTNERS ---------- */
+.hmo-sec{background:var(--mist);overflow:hidden}
+.hmo-marquee{position:relative;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.hmo-marquee::-webkit-scrollbar{display:none}
+.hmo-track{display:flex;gap:22px;width:max-content;animation:hmoScroll 48s linear infinite}
+.hmo-marquee.rev .hmo-track{animation-direction:reverse;animation-duration:54s}
+.hmo-marquee:hover .hmo-track{animation-play-state:paused}
+.hmo-logo{flex:none;width:170px;height:96px;background:#fff;border:1px solid var(--line);border-radius:16px;display:flex;align-items:center;justify-content:center;padding:16px 22px;box-shadow:var(--shadow-sm);transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s ease}
+.hmo-logo img{width:auto;height:auto;max-width:100%;max-height:52px;object-fit:contain;object-position:center;filter:grayscale(1);opacity:.7;transition:filter .35s ease,opacity .35s ease,transform .35s ease}
+.hmo-logo:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.hmo-logo:hover img{filter:grayscale(0);opacity:1;transform:scale(1.06)}
+@keyframes hmoScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:560px){.hmo-logo{width:140px;height:82px;padding:14px 18px}}
+
+/* ---------- TESTIMONIALS ---------- */
+.testi-sec{background:linear-gradient(160deg,var(--mist),#fff)}
+.testi-wrap{position:relative;max-width:780px;margin:0 auto;min-height:230px}
+.testi{position:absolute;inset:0;background:#fff;border:1px solid var(--line);border-radius:24px;padding:42px 44px;box-shadow:var(--shadow-sm);text-align:center;opacity:0;transform:translateY(18px) scale(.97);transition:opacity .5s ease,transform .5s ease;pointer-events:none}
+.testi.active{opacity:1;transform:none;pointer-events:auto;position:relative}
+.testi .quote-ic{width:54px;height:54px;margin:0 auto 18px;border-radius:50%;background:var(--teal-light);color:var(--teal);display:grid;place-items:center}
+.testi p{font-size:1.12rem;color:var(--ink);line-height:1.7;font-style:italic;margin-bottom:22px}
+.testi .stars-row{color:var(--gold);font-size:1.05rem;letter-spacing:2px;margin-bottom:14px}
+.testi .who{display:flex;align-items:center;justify-content:center;gap:12px}
+.testi .who .av{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;font-family:'Fraunces',serif;font-weight:700;display:grid;place-items:center;font-size:1.15rem}
+.testi .who b{display:block;font-size:.98rem}
+.testi .who span{font-size:.82rem;color:var(--slate)}
+.testi-dots{display:flex;justify-content:center;gap:9px;margin-top:28px}
+.testi-dots button{width:11px;height:11px;border-radius:50%;border:none;background:var(--line);cursor:pointer;transition:.25s;padding:0}
+.testi-dots button.on{background:var(--teal);transform:scale(1.25)}
+@media(max-width:560px){.testi{padding:32px 24px}.testi p{font-size:1rem}}
+
+/* ---------- FACILITIES GALLERY ---------- */
+.facility-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.fac{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow-sm);cursor:pointer}
+.fac img{width:100%;height:100%;object-fit:cover;transition:transform .55s ease}
+.fac:hover img{transform:scale(1.09)}
+.fac::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(13,40,25,.55));opacity:0;transition:opacity .35s ease}
+.fac:hover::after{opacity:1}
+.fac .fac-cap{position:absolute;left:14px;bottom:12px;color:#fff;font-family:'Outfit';font-weight:600;font-size:.9rem;z-index:2;opacity:0;transform:translateY(8px);transition:.35s ease}
+.fac:hover .fac-cap{opacity:1;transform:none}
+@media(max-width:860px){.facility-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.facility-grid{grid-template-columns:1fr}}
+
+/* ---------- LOCATION / MAP ---------- */
+.map-wrap{display:grid;grid-template-columns:.95fr 1.05fr;gap:0;border-radius:26px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}
+.map-info{background:linear-gradient(160deg,var(--teal-dark),var(--teal));color:#fff;padding:48px 44px;position:relative;overflow:hidden}
+.map-info::before{content:"";position:absolute;bottom:-90px;left:-70px;width:280px;height:280px;background:radial-gradient(circle,rgba(255,255,255,.10),transparent 70%);border-radius:50%}
+.map-info h3{color:#fff;font-size:1.9rem;margin-bottom:10px;position:relative}
+.map-info>p{color:rgba(255,255,255,.85);font-size:.98rem;margin-bottom:28px;position:relative}
+.map-detail{display:flex;gap:13px;align-items:center;margin-bottom:15px;position:relative}
+.map-detail .ic{width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.15);display:grid;place-items:center;color:#fff;flex:none;backdrop-filter:blur(4px)}
+.map-detail h4{font-family:'Outfit';font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#ffd9a0;margin-bottom:3px;font-weight:600}
+.map-detail p{font-size:.96rem;color:#fff;line-height:1.45}
+.map-detail a{color:#fff}
+.map-detail a:hover{color:#ffd9a0}
+.map-static{display:block;position:relative;margin:0 0 26px;border-radius:16px;overflow:hidden;border:2px solid rgba(255,255,255,.3);box-shadow:0 10px 30px -12px rgba(0,0,0,.4);cursor:pointer}
+.map-static img{width:100%;height:400px;object-fit:cover;display:block;transition:transform .5s ease}
+.map-static:hover img{transform:scale(1.06)}
+.map-static{transition:transform .18s ease,border-color .25s ease}
+.map-static:hover{border-color:rgba(255,255,255,.7)}
+.map-static:active{transform:scale(.97)}
+.map-static .pin{position:absolute;bottom:10px;left:12px;background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;font-size:.74rem;font-weight:600;padding:6px 13px;border-radius:50px;box-shadow:0 4px 12px -3px rgba(0,0,0,.4);display:flex;align-items:center;gap:6px}
+.map-static .map-open{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.92);color:var(--teal-dark);display:grid;place-items:center;box-shadow:var(--shadow-sm);transition:transform .25s ease,background .25s ease}
+.map-static:hover .map-open{transform:scale(1.12);background:var(--gold);color:var(--ink)}
+
+/* ---------- LIGHTBOX ---------- */
+.lightbox{position:fixed;inset:0;z-index:200;background:rgba(10,25,16,.82);backdrop-filter:blur(6px);display:none;place-items:center;padding:28px;opacity:0;transition:opacity .3s ease}
+.lightbox.show{display:grid;opacity:1}
+.lightbox-inner{position:relative;max-width:960px;width:100%}
+.lightbox.show .lightbox-inner{animation:popIn .55s cubic-bezier(.34,1.56,.64,1) both}
+.lightbox.show .lightbox-close{animation:popIn .5s cubic-bezier(.34,1.7,.64,1) both .15s}
+.lightbox.show .lightbox-cap{animation:popCap .45s ease both .3s}
+.lightbox-inner img{width:100%;max-height:80vh;object-fit:contain;border-radius:18px;box-shadow:0 30px 80px -20px rgba(0,0,0,.6)}
+.lightbox-close{position:absolute;top:-16px;right:-16px;width:44px;height:44px;border-radius:50%;border:none;background:#fff;color:var(--ink);font-size:1.7rem;line-height:1;cursor:pointer;box-shadow:var(--shadow);transition:.2s;display:grid;place-items:center}
+.lightbox-close:hover{background:var(--coral);color:#fff;transform:rotate(90deg)}
+.lightbox-cap{margin-top:16px;text-align:center;color:#fff;font-size:.92rem;font-weight:500;display:flex;align-items:center;justify-content:center;gap:8px}
+.lightbox-cap svg{color:var(--gold)}
+@media(max-width:560px){.lightbox-close{top:-8px;right:-8px;width:38px;height:38px}}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:none;background:rgba(255,255,255,.92);color:var(--ink);font-size:1.8rem;line-height:1;cursor:pointer;display:grid;place-items:center;box-shadow:var(--shadow);transition:background .2s,transform .2s;z-index:3}
+.lb-nav:hover{background:var(--teal);color:#fff;transform:translateY(-50%) scale(1.12)}
+.lb-nav.prev{left:-22px}
+.lb-nav.next{right:-22px}
+@media(max-width:560px){.lb-nav{width:42px;height:42px;background:rgba(255,255,255,.85)}.lb-nav.prev{left:6px}.lb-nav.next{right:6px}}
+.map-info .btn{position:relative;margin-top:8px;background:#fff;color:var(--teal-dark)}
+.map-info .btn:hover{background:var(--gold);color:var(--ink)}
+.map-frame{position:relative;min-height:430px}
+.map-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:saturate(1.05)}
+.map-frame .map-static{position:absolute;inset:0;margin:0;height:100%;border:0;border-radius:0}
+.map-frame .map-static img{height:100%}
+@media(max-width:860px){.map-wrap{grid-template-columns:1fr}.map-frame{min-height:340px;order:2}.map-info{order:1}}
+
+/* ===== KEYFRAMES ===== */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:none}}
+@keyframes slideInR{from{opacity:0;transform:translateX(-36px)}to{opacity:1;transform:none}}
+@keyframes slideInL{from{opacity:0;transform:translateX(36px)}to{opacity:1;transform:none}}
+@keyframes scaleIn{from{opacity:0;transform:scale(.88)}to{opacity:1;transform:none}}
+@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes logoPulse{0%,100%{box-shadow:0 0 0 0 rgba(31,157,85,.35)}60%{box-shadow:0 0 0 14px rgba(31,157,85,0)}}
+@keyframes pageIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes pinPulse{0%,100%{box-shadow:0 4px 12px -3px rgba(0,0,0,.4),0 0 0 0 rgba(31,157,85,.55)}60%{box-shadow:0 4px 12px -3px rgba(0,0,0,.4),0 0 0 13px rgba(31,157,85,0)}}
+@keyframes gradientShift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@keyframes shimmer{from{left:-60%}to{left:140%}}
+@keyframes floatSoft{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes popIn{0%{opacity:0;transform:scale(.4) translateY(40px)}55%{opacity:1;transform:scale(1.06) translateY(0)}75%{transform:scale(.97)}100%{transform:scale(1)}}
+@keyframes popCap{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes facSlideNext{0%{opacity:0;transform:translateX(80px)}100%{opacity:1;transform:translateX(0)}}
+@keyframes facSlidePrev{0%{opacity:0;transform:translateX(-80px)}100%{opacity:1;transform:translateX(0)}}
+
+/* ===== CHROME ENTRANCE ===== */
+.emergency{animation:fadeDown .55s cubic-bezier(.16,1,.3,1) both}
+header{animation:fadeDown .55s cubic-bezier(.16,1,.3,1) both .1s}
+.logo .mark{animation:logoPulse 3.5s ease-in-out infinite 3s}
+
+/* ===== HERO ENTRANCE (staggered) ===== */
+.hero .eyebrow{animation:slideInR .7s cubic-bezier(.16,1,.3,1) both .2s}
+.hero h1{animation:fadeUp .8s cubic-bezier(.16,1,.3,1) both .35s}
+.hero-grid>div:first-child>p{animation:fadeUp .7s cubic-bezier(.16,1,.3,1) both .55s}
+.hero-actions{animation:fadeUp .7s cubic-bezier(.16,1,.3,1) both .7s}
+.hero-stats{animation:fadeUp .7s cubic-bezier(.16,1,.3,1) both .9s}
+.hero-art{animation:slideInL .9s cubic-bezier(.16,1,.3,1) both .4s}
+.bf1{animation:fadeUp .6s cubic-bezier(.16,1,.3,1) both 1s,floatY 4s ease-in-out infinite 2s}
+.bf2{animation:fadeUp .6s cubic-bezier(.16,1,.3,1) both 1.15s,floatY 4s ease-in-out infinite 2.5s}
+
+/* ===== PAGE TRANSITION ===== */
+.page.active{animation:pageIn .45s cubic-bezier(.16,1,.3,1)}
+
+/* ===== ADDED ANIMATIONS ===== */
+/* Button shine sweep on hover */
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;top:0;left:-60%;width:45%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);pointer-events:none}
+.btn:hover::after{animation:shimmer .75s ease}
+/* Animated gradient backgrounds */
+.cta-banner,.docsearch,.map-info,.info-card{background-size:200% 200%;animation:gradientShift 14s ease infinite}
+/* Pulsing green map pin */
+.map-static .pin{animation:pinPulse 2.6s ease-in-out infinite 1.4s}
+/* Map expand icon gentle float */
+.map-static .map-open{animation:floatSoft 3.5s ease-in-out infinite}
+/* Icon pop on card / strip / value hover */
+.card .ic,.strip .item .ic,.value .ic,.visit-grid .vc .ic{transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.card:hover .ic,.strip .item:hover .ic,.value:hover .ic,.visit-grid .vc:hover .ic{transform:scale(1.14) rotate(-6deg)}
+/* Doctor cards: photo zoom on hover */
+.doc-photo img{transition:transform .5s ease}
+.doc-card:hover .doc-photo img{transform:scale(1.07)}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}
+
+/* ===== SCROLL REVEAL CLASSES ===== */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .65s ease,transform .65s ease}
+.rv.in{opacity:1;transform:none}
+.rv-l{opacity:0;transform:translateX(-30px);transition:opacity .7s ease,transform .7s ease}
+.rv-l.in{opacity:1;transform:none}
+.rv-r{opacity:0;transform:translateX(30px);transition:opacity .7s ease,transform .7s ease}
+.rv-r.in{opacity:1;transform:none}
+.rv-s{opacity:0;transform:scale(.9);transition:opacity .6s ease,transform .6s ease}
+.rv-s.in{opacity:1;transform:scale(1)}
+
+/* ===== ENHANCED HOVER TRANSITIONS ===== */
+.card{transition:transform .32s cubic-bezier(.34,1.56,.64,1),box-shadow .3s ease,border-color .3s ease}
+.doc-card{transition:transform .32s cubic-bezier(.34,1.56,.64,1),box-shadow .3s ease}
+.strip .item{transition:transform .32s cubic-bezier(.34,1.56,.64,1),box-shadow .3s ease}
+.btn{transition:background .25s ease,transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s ease}
+.filter-bar button{transition:background .2s ease,color .2s ease,border-color .2s ease,transform .2s cubic-bezier(.34,1.56,.64,1)}
+.filter-bar button:hover:not(.active){transform:translateY(-2px)}
+.menu button:not(.active):hover{transform:translateX(4px)}
+.ac-head{transition:background .2s ease}
+.doc-photo img{transition:transform .45s ease}
+.doc-card:hover .doc-photo img{transform:scale(1.06)}
+.value{transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s ease}
+.value:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.foot-col a{transition:color .2s ease,padding-left .2s ease,transform .2s ease}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+<div class="scroll-prog" id="scrollProg"></div>
+
+<div class="emergency">
+  <span class="ei"><span class="ei-ic"><i class="fa-solid fa-mobile-screen-button"></i></span><span class="ei-txt"><b>Mobile</b><a href="tel:+639399109974">+63 939 910 9974</a></span></span>
+  <span class="ei-sep"></span>
+  <span class="ei"><span class="ei-ic"><i class="fa-solid fa-phone"></i></span><span class="ei-txt"><b>Telephone</b><a href="tel:+63285381280">02 8538 1280</a></span></span>
+  <span class="ei-sep"></span>
+  <span class="ei"><span class="ei-ic"><i class="fa-solid fa-envelope"></i></span><span class="ei-txt"><b>Email Us</b><a href="mailto:infoadmittingbmci@gmail.com">infoadmittingbmci@gmail.com</a></span></span>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#" onclick="go('home');return false">
+      <img class="logo-mark" src="assets/img/logo/logo1.png" alt="BicutanMed logo">
+      <img class="logo-text" src="assets/img/logo/bicutanmed-text.webp" alt="BicutanMed">
+    </a>
+    <ul class="menu" id="menu">
+      <li><button data-page="home" class="active" onclick="go('home')">Home</button></li>
+      <li><button data-page="services" onclick="go('services')">Services</button></li>
+      <li><button data-page="doctors" onclick="go('doctors')">Doctors</button></li>
+      <li><button data-page="patients" onclick="go('patients')">Patients &amp; Visitors</button></li>
+      <li><button data-page="about" onclick="go('about')">About Us</button></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="btn" onclick="go('feedback')">Book / Feedback</button>
+      <button class="hamburger" id="burger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HOME ============ -->
+<div class="page active" id="home">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Compassionate care, trusted expertise</span>
+        <h1>Welcome to <em>Bicutan Medical Center</em> Hospital</h1>
+        <p>At Bicutan Medical Center, we prioritize the health and well-being of our patients. With top-notch medical equipment and a team of expert practitioners in various specializations, we deliver quality healthcare in a comfortable and safe environment. Trust us to take care of your health needs.</p>
+        <div class="hero-actions">
+          <button class="btn" onclick="go('feedback')">Request an Appointment</button>
+          <button class="btn btn-ghost" onclick="go('services')">Explore Services</button>
+        </div>
+        <div class="hero-stats">
+          <div><div class="num">3+</div><div class="lbl">Years of Service</div></div>
+          <div><div class="num">110+</div><div class="lbl">Specialist Doctors</div></div>
+          <div><div class="num">100+</div><div class="lbl">Hospital Beds</div></div>
+          <div><div class="num">90%</div><div class="lbl">Patient Satisfaction</div></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-card" id="heroSlides">
+          <img class="hero-slide active" src="assets/img/background/bg1.jpg" alt="Bicutan Medical Center" fetchpriority="high" decoding="async">
+          <img class="hero-slide" src="assets/img/background/bg2.jpg" alt="Bicutan Medical Center facility" loading="lazy" decoding="async">
+        </div>
+        <div class="badge-float bf1">
+          <span class="ic" style="background:var(--teal)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.3"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8L12 21l8.8-8.5a5.5 5.5 0 0 0 0-7.9z"/></svg></span>
+          <div><strong>Patient-first</strong><span>Care that listens</span></div>
+        </div>
+        <div class="badge-float bf2">
+          <span class="ic" style="background:var(--coral)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.3"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+          <div><strong>Always Open</strong><span>Emergency 24/7</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="docsearch">
+      <div class="ds-head">
+        <span class="eyebrow">Find your doctor</span>
+        <h3>Search Our Specialists</h3>
+        <p>Look up a physician by name, or browse by their area of specialization.</p>
+      </div>
+      <form class="ds-form" onsubmit="homeDocSearch(event)">
+        <div class="ds-input">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" id="hdsName" placeholder="Search by doctor name…" autocomplete="off">
+        </div>
+        <div class="ds-input">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3v7a5 5 0 0 0 10 0V3"/><path d="M14 10a5 5 0 0 0 5 5 3 3 0 0 0 3-3v-1"/><circle cx="20" cy="9" r="2"/></svg>
+          <select id="hdsSpec"><option value="">All Specializations</option></select>
+        </div>
+        <button class="btn" type="submit">Search Doctors</button>
+      </form>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Why choose us</span><h2>Healthcare designed around you</h2><p>From your first call to your full recovery, every step is built to be simple, clear, and reassuring.</p></div>
+      <div class="grid g3">
+        <div class="card"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8L12 21l8.8-8.5a5.5 5.5 0 0 0 0-7.9z"/></svg></div><h3>Compassion First</h3><p>We treat people, not just conditions. Every patient is met with warmth, patience, and respect.</p></div>
+        <div class="card"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3>Fast Access</h3><p>Short wait times, same-day urgent slots, and a streamlined online booking experience.</p></div>
+        <div class="card"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><h3>Advanced Technology</h3><p>State-of-the-art imaging, robotic surgery, and digital records that follow you everywhere.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testi-sec">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Patient stories</span><h2>What our patients say</h2><p>Real experiences from the families and individuals we’re honored to care for.</p></div>
+      <div class="testi-wrap" id="testiWrap"></div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <section class="hmo-sec">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Accredited partners</span><h2>HMOs We Accept</h2><p>We're proudly accredited with the country's leading health maintenance organizations and insurers for your convenience.</p></div>
+    </div>
+    <div class="hmo-marquee"><div class="hmo-track" id="hmoTrack1"></div></div>
+    <div class="hmo-marquee rev" style="margin-top:22px"><div class="hmo-track" id="hmoTrack2"></div></div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Find us</span><h2>Visit Bicutan Medical Center</h2><p>We're easy to reach in the heart of New Lower Bicutan, Taguig — open and ready for you 24 hours a day.</p></div>
+      <div class="map-wrap">
+        <div class="map-info">
+          <h3>Navigate your way to us</h3>
+          <p>Our nearest landmark is Ricardo P. Cruz Sr. Elementary School. We highly encourage you to contact our information desk through Viber.</p>
+          <div class="map-static" onclick="openMapLightbox()" title="Click to view larger map">
+            <img src="assets/img/map/map.webp" alt="Map of Bicutan Medical Center area" loading="lazy" decoding="async">
+            <span class="pin"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Bicutan Medical Center</span>
+            <span class="map-open"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M14 10l7-7M9 21H3v-6M10 14l-7 7"/></svg></span>
+          </div>
+          <div class="map-detail">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><h4>Address</h4><p>191 M. L. Quezon Ave, Taguig,<br>1632 Metro Manila</p></div>
+          </div>
+          <div class="map-detail">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <div><h4>Contact Us</h4><p><a href="tel:+63285381280">02 8538 1280</a> | <a href="tel:+639399109974">+639399109974</a> SMS/Viber</p></div>
+          </div>
+          <div class="map-detail">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+            <div><h4>Hours</h4><p>Open 24 Hours · 7 Days a Week</p></div>
+          </div>
+          <a class="btn" href="https://maps.app.goo.gl/tSLjvzPZz8odmTJv7" target="_blank" rel="noopener">Get Directions →</a>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps?q=Bicutan+Medical+Center,+M.+L.+Quezon+Ave,+Taguig,+1632+Metro+Manila&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bicutan Medical Center location map" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="cta-banner">
+        <h2>Ready to take charge of your health?</h2>
+        <p>Schedule a consultation with one of our specialists today, or send us your feedback to help us serve you better.</p>
+        <button class="btn" onclick="go('feedback')">Get Started →</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Take a look around</span><h2>Our Facilities</h2><p>Modern, comfortable, and fully equipped spaces designed to make your care experience safe and reassuring.</p></div>
+      <div class="facility-grid">
+        <div class="fac"><img src="assets/img/facility/facility1.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Reception &amp; Lobby</span></div>
+        <div class="fac"><img src="assets/img/facility/facility2.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Consultation Room</span></div>
+        <div class="fac"><img src="assets/img/facility/facility3.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Patient Room</span></div>
+        <div class="fac"><img src="assets/img/facility/facility4.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Nurse Station</span></div>
+        <div class="fac"><img src="assets/img/facility/facility5.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Diagnostics</span></div>
+        <div class="fac"><img src="assets/img/facility/facility6.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Treatment Area</span></div>
+        <div class="fac"><img src="assets/img/facility/facility7.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Waiting Lounge</span></div>
+        <div class="fac"><img src="assets/img/facility/facility8.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Hospital Wing</span></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<div class="page" id="services">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">What we offer</span><h2>Our Medical Services</h2><p>Comprehensive, coordinated care across more than 40 specialties — all under one roof.</p></div>
+      <div class="grid g3" id="servicesGrid"></div>
+    </div>
+  </section>
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="cta-banner">
+        <h2>Not sure which service you need?</h2>
+        <p>Our care coordinators will help guide you to the right specialist. Reach out anytime.</p>
+        <button class="btn" onclick="go('feedback')">Contact Us</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ DOCTORS ============ -->
+<div class="page" id="doctors">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Meet the team</span><h2>Our Specialists</h2><p>A dedicated team of board-certified physicians committed to your wellbeing.</p></div>
+      <div class="doc-searchbar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="docSearchInput" placeholder="Search doctors by name…" autocomplete="off" oninput="docSearch(this.value)">
+        <button type="button" class="clr" id="docSearchClr" onclick="clearDocSearch()" aria-label="Clear"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="filter-bar" id="docFilter"></div>
+      <div class="grid g4" id="docGrid"></div>
+      <div class="pagination" id="docPaging"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PATIENTS & VISITORS ============ -->
+<div class="page" id="patients">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Helpful information</span><h2>Patients &amp; Visitors</h2><p>Everything you need to know to make your visit smooth and stress-free.</p></div>
+      <div class="split">
+        <div>
+          <h3 style="font-size:1.6rem;margin-bottom:20px">Frequently Asked Questions</h3>
+          <div class="accordion" id="faq"></div>
+        </div>
+        <div class="info-card">
+          <h3>Visiting Hours</h3>
+          <p>We welcome family and friends during these times.</p>
+          <div class="hours-row"><span>General Wards</span><span>9:00 AM – 8:00 PM</span></div>
+          <div class="hours-row"><span>Intensive Care (ICU)</span><span>11:00 AM – 1:00 PM</span></div>
+          <div class="hours-row"><span>Maternity</span><span>10:00 AM – 7:00 PM</span></div>
+          <div class="hours-row"><span>Pediatrics</span><span>Open to parents 24/7</span></div>
+          <div class="hours-row"><span>Emergency Dept.</span><span>Always Open</span></div>
+        </div>
+      </div>
+      <div class="visit-grid">
+        <div class="vc"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h4>Before You Arrive</h4><p>Bring a valid ID, insurance card, and a list of current medications.</p></div>
+        <div class="vc"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div><h4>Parking & Access</h4><p>Free on-site parking with wheelchair access at the main and ER entrances.</p></div>
+        <div class="vc"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h4>Patient Support</h4><p>Interpreters, financial counseling, and chaplaincy available on request.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ ABOUT US ============ -->
+<div class="page" id="about">
+  <section>
+    <div class="wrap">
+      <div class="about-hero">
+        <img src="assets/img/facility/facility1.webp" alt="Bicutan Medical Center facility" loading="lazy" decoding="async">
+        <div>
+          <span class="eyebrow">Bicutan Medical Center Inc.</span>
+          <h2 style="font-size:2.6rem;margin-bottom:16px">About Us</h2>
+          <p style="color:var(--slate);margin-bottom:14px">At Bicutan Medical Center, we go beyond standard healthcare by providing expert-driven, patient-centered care tailored to every individual. As a 100-bed capacity hospital, we are equipped to serve a wide range of medical needs while maintaining a personalized and compassionate approach.</p>
+          <p style="color:var(--slate);margin-bottom:14px">Our highly skilled team of doctors, nurses, and support staff work together to ensure that every patient receives the best possible care. We offer comprehensive medical services, from routine check-ups to specialized diagnostics, using advanced technology to provide accurate and efficient results. Our hospital is equipped with 2D echo, CT scan, and other modern diagnostic tools, allowing us to deliver precise and timely assessments.</p>
+          <p style="color:var(--slate)">Designed with patient comfort in mind, our facility features welcoming waiting areas, private consultation rooms, and cutting-edge medical equipment to create a seamless healthcare experience. At Bicutan Medical Center, we are committed to <strong style="color:var(--teal-dark)">Caring for Life</strong>, ensuring that every patient receives compassionate, high-quality medical care when they need it most.</p>
+        </div>
+      </div>
+
+      <div class="sec-head" style="margin-top:74px;margin-bottom:0"><span class="eyebrow">What drives us</span><h2>Our Vision &amp; Mission</h2></div>
+      <div class="vm-grid">
+        <div class="vm-card vis">
+          <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Our Vision</h3>
+          <p>To be the leading affordable hospitals, setting the standard for accessible and advanced healthcare by 2028.</p>
+        </div>
+        <div class="vm-card mis">
+          <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <h3>Our Mission</h3>
+          <p>To provide quality and affordable healthcare to the community.</p>
+        </div>
+      </div>
+
+      <div class="sec-head" style="margin-top:74px;margin-bottom:0"><span class="eyebrow">The BMCI way</span><h2>Our Core Values</h2></div>
+      <div class="corevals">
+        <div class="cv"><div class="letter">B</div><h4>Best Care</h4><p>We are committed to provide and develop excellent medical care and services.</p></div>
+        <div class="cv"><div class="letter">M</div><h4>Mutual Respect</h4><p>We will create an atmosphere that values and respects everyone.</p></div>
+        <div class="cv"><div class="letter">C</div><h4>Compassion</h4><p>We treat everyone with empathy, dignity, and understanding.</p></div>
+        <div class="cv"><div class="letter">I</div><h4>Integrity</h4><p>We shall conduct ourselves with high standards of professionalism and ethics.</p></div>
+      </div>
+
+      <div class="cta-banner" style="margin-top:74px">
+        <h2>Drop us a message</h2>
+        <p>If you have any questions or would like to schedule an appointment, please call us at <strong>02 8538 1280</strong>.</p>
+        <button class="btn" onclick="go('feedback')">Contact Us →</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ FEEDBACK ============ -->
+<div class="page" id="feedback">
+  <section>
+    <div class="wrap fb-wrap">
+      <div class="fb-intro">
+        <span class="eyebrow">We're listening</span>
+        <h2>Online Feedback &amp; Appointments</h2>
+        <p>Your experience matters. Share your thoughts, book a visit, or ask a question — and our team will respond promptly.</p>
+        <ul class="fb-points">
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg></span><div>Every submission is reviewed by our patient care team.</div></li>
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg></span><div>Typical response time is within 24 hours.</div></li>
+          <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg></span><div>Your information is kept private and confidential.</div></li>
+        </ul>
+      </div>
+
+      <div class="form">
+        <form id="fbForm" novalidate>
+          <div class="row2">
+            <div class="field"><label>Full Name *</label><input type="text" name="name" placeholder="Jane Doe"><div class="err-msg">Please enter your name.</div></div>
+            <div class="field"><label>Email *</label><input type="email" name="email" placeholder="jane@email.com"><div class="err-msg">Enter a valid email address.</div></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label>Phone</label><input type="tel" name="phone" placeholder="+1 800 000 0000"><div class="err-msg"></div></div>
+            <div class="field"><label>Type of Request *</label>
+              <select name="type"><option value="">Choose one…</option><option>Appointment Request</option><option>Compliment</option><option>Suggestion</option><option>Complaint</option><option>General Question</option></select>
+              <div class="err-msg">Please select a request type.</div></div>
+          </div>
+          <div class="field"><label>Department</label>
+            <select name="dept"><option value="">Any / Not sure</option></select>
+          </div>
+          <div class="field"><label>Rate your experience</label>
+            <div class="stars" id="stars"><span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span data-v="5">★</span></div>
+          </div>
+          <div class="field"><label>Your Message *</label><textarea name="message" placeholder="Tell us how we can help…"></textarea><div class="err-msg">Please write a short message.</div></div>
+          <button type="submit" class="btn" style="width:100%;justify-content:center">Submit Feedback</button>
+        </form>
+        <div class="form-success" id="fbSuccess">
+          <div class="check"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <h3>Thank you!</h3>
+          <p id="successMsg">Your feedback has been received. Our team will be in touch within 24 hours.</p>
+          <button class="btn btn-ghost" style="margin-top:22px" onclick="resetForm()">Submit another</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<!-- MAP LIGHTBOX -->
+<div class="lightbox" id="mapLightbox" onclick="closeMapLightbox(event)">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" onclick="closeMapLightbox(event)" aria-label="Close">&times;</button>
+    <img src="assets/img/map/map.webp" alt="Map of Bicutan Medical Center area — enlarged">
+    <div class="lightbox-cap"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> 191 M. L. Quezon Ave, Taguig, 1632 Metro Manila</div>
+  </div>
+</div>
+
+<!-- FACILITY GALLERY LIGHTBOX -->
+<div class="lightbox" id="facLightbox" onclick="closeFac(event)">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" onclick="closeFac(event)" aria-label="Close">&times;</button>
+    <button class="lb-nav prev" onclick="facNav(-1,event)" aria-label="Previous">&#8249;</button>
+    <img id="facImg" src="" alt="Facility photo">
+    <button class="lb-nav next" onclick="facNav(1,event)" aria-label="Next">&#8250;</button>
+    <div class="lightbox-cap" id="facCap"></div>
+  </div>
+</div>
+
+<!-- BACK TO TOP -->
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- CHAT WIDGET -->
+<button class="chat-fab" id="chatFab" onclick="toggleChat()" aria-label="Open chat">
+  <i class="fa-solid fa-comment-dots"></i><i class="fa-solid fa-xmark"></i>
+</button>
+<div class="chat-win" id="chatWin" role="dialog" aria-label="BMC Assistant">
+  <div class="chat-head">
+    <span class="ava"><img src="assets/img/logo/logo1.png" alt="BMC"></span>
+    <div><h4>BMC Assistant</h4><span class="stat">Online · Quick answers</span></div>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+  <form class="chat-input" onsubmit="chatSend(event)">
+    <input type="text" id="chatInput" placeholder="Type your question…" autocomplete="off">
+    <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a class="logo" href="#" onclick="go('home');return false"><img class="logo-mark" src="assets/img/logo/logo1.png" alt="BicutanMed logo"><span class="logo-word">BicutanMed</span></a>
+        <p>Top-quality, compassionate healthcare for the Taguig community — open 24 hours, every day.</p>
+      </div>
+      <div class="foot-col"><h5>Quick Links</h5><a onclick="go('services')">Services</a><a onclick="go('doctors')">Find a Doctor</a><a onclick="go('patients')">Patients & Visitors</a><a onclick="go('about')">About Us</a></div>
+      <div class="foot-col"><h5>Patients</h5><a onclick="go('feedback')">Book Appointment</a><a onclick="go('feedback')">Give Feedback</a><a onclick="go('patients')">Visiting Hours</a><a href="tel:+639399109974">Billing Support</a></div>
+      <div class="foot-col"><h5>Contact</h5><p>191 M.L. Quezon St., New Lower Bicutan, Taguig City</p><p>📞 <a href="tel:+639399109974" style="display:inline">+63 939 910 9974</a></p><p>🌐 bicutanmed.com</p><p>🚑 Emergency: 911</p></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Bicutan Medical Center. All rights reserved.</span>
+      <span>Privacy Policy · Terms of Service · Accessibility</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ---------- NAVIGATION ---------- */
+function go(page){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById(page).classList.add('active');
+  document.querySelectorAll('.menu button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));
+  document.getElementById('menu').classList.remove('show');
+  document.getElementById('burger').classList.remove('open');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function toggleMenu(){
+  document.getElementById('menu').classList.toggle('show');
+  document.getElementById('burger').classList.toggle('open');
+}
+
+/* ---------- MAP LIGHTBOX ---------- */
+function openMapLightbox(){
+  const lb=document.getElementById('mapLightbox');
+  lb.classList.add('show');
+  document.body.style.overflow='hidden';
+}
+function closeMapLightbox(e){
+  if(e && e.target.closest('.lightbox-inner') && !e.target.closest('.lightbox-close')) return;
+  document.getElementById('mapLightbox').classList.remove('show');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMapLightbox();});
+
+/* ---------- FACILITY GALLERY LIGHTBOX ---------- */
+let facItems=[],facIndex=0;
+function facUpdate(anim){
+  const it=facItems[facIndex];if(!it)return;
+  const img=document.getElementById('facImg');
+  img.src=it.src;img.alt=it.cap||'Facility photo';
+  document.getElementById('facCap').textContent=it.cap?`${it.cap}  ·  ${facIndex+1} / ${facItems.length}`:`${facIndex+1} / ${facItems.length}`;
+  const a = anim==='next' ? 'facSlideNext .35s ease'
+          : anim==='prev' ? 'facSlidePrev .35s ease'
+          : 'popIn .45s cubic-bezier(.34,1.56,.64,1)';
+  img.style.animation='none';void img.offsetWidth;img.style.animation=a;
+}
+function openFac(i){
+  facIndex=i;facUpdate('pop');
+  document.getElementById('facLightbox').classList.add('show');
+  document.body.style.overflow='hidden';
+}
+function facNav(dir,e){
+  if(e)e.stopPropagation();
+  facIndex=(facIndex+dir+facItems.length)%facItems.length;
+  facUpdate(dir>0?'next':'prev');
+}
+function closeFac(e){
+  if(e && e.target.closest('.lightbox-inner') && !e.target.closest('.lightbox-close')) return;
+  document.getElementById('facLightbox').classList.remove('show');
+  document.body.style.overflow='';
+}
+(function(){
+  const tiles=document.querySelectorAll('.facility-grid .fac');
+  facItems=[...tiles].map(f=>({src:f.querySelector('img').src,cap:f.querySelector('.fac-cap')?.textContent.trim()||''}));
+  tiles.forEach((f,i)=>f.addEventListener('click',()=>openFac(i)));
+})();
+document.addEventListener('keydown',e=>{
+  if(!document.getElementById('facLightbox').classList.contains('show'))return;
+  if(e.key==='Escape')closeFac();
+  else if(e.key==='ArrowLeft')facNav(-1);
+  else if(e.key==='ArrowRight')facNav(1);
+});
+(function(){
+  const lb=document.getElementById('facLightbox');let x0=null;
+  lb.addEventListener('touchstart',e=>{x0=e.changedTouches[0].clientX;},{passive:true});
+  lb.addEventListener('touchend',e=>{
+    if(x0===null)return;
+    const dx=e.changedTouches[0].clientX-x0;
+    if(Math.abs(dx)>40)facNav(dx<0?1:-1);
+    x0=null;
+  },{passive:true});
+})();
+
+/* ---------- HERO STAT COUNT-UP ---------- */
+function countUp(el){
+  const m=el.textContent.trim().match(/^(\d+)(.*)$/);
+  if(!m){return;}
+  const target=+m[1], suffix=m[2], dur=1500, start=performance.now();
+  function tick(now){
+    const p=Math.min((now-start)/dur,1);
+    const eased=1-Math.pow(1-p,3);
+    el.textContent=Math.round(eased*target)+suffix;
+    if(p<1)requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+window.addEventListener('load',()=>{
+  document.querySelectorAll('.hero-stats .num').forEach((el,i)=>setTimeout(()=>countUp(el),950+i*140));
+});
+
+/* ---------- SCROLL PROGRESS + BACK TO TOP ---------- */
+(function(){
+  const prog=document.getElementById('scrollProg'), top=document.getElementById('toTop');
+  function onScroll(){
+    const h=document.documentElement;
+    const sc=h.scrollTop||document.body.scrollTop;
+    const max=(h.scrollHeight-h.clientHeight)||1;
+    prog.style.width=(sc/max*100)+'%';
+    top.classList.toggle('show',sc>500);
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+})();
+
+/* ---------- TESTIMONIALS ---------- */
+(function(){
+  const data=[
+    {t:"From the ER to discharge, the staff treated my father with such warmth and professionalism. We never felt rushed — they explained everything clearly.",n:"Maria S.",r:"Patient's daughter",s:5},
+    {t:"Booked a check-up and got my 2D echo results the same day. Clean facilities, kind nurses, and doctors who actually listen. Highly recommend.",n:"Jomar R.",r:"Outpatient",s:5},
+    {t:"Gave birth here and the maternity team was amazing — caring, patient, and reassuring through the whole experience. Thank you, BMC!",n:"Angelica D.",r:"New mom",s:5},
+    {t:"Affordable, accessible, and genuinely compassionate care right here in Taguig. Open 24/7 gave our family real peace of mind.",n:"Ramon T.",r:"Community member",s:5}
+  ];
+  const wrap=document.getElementById('testiWrap'), dots=document.getElementById('testiDots');
+  if(!wrap)return;
+  data.forEach((d,i)=>{
+    wrap.insertAdjacentHTML('beforeend',`<figure class="testi ${i===0?'active':''}"><div class="quote-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v4a4 4 0 0 1-4 4H6v-2h1a2 2 0 0 0 2-2H7zm8 0h4v4a4 4 0 0 1-4 4h-1v-2h1a2 2 0 0 0 2-2h-2z"/></svg></div><div class="stars-row">${'★'.repeat(d.s)}</div><p>“${d.t}”</p><figcaption class="who"><span class="av">${d.n.charAt(0)}</span><span><b>${d.n}</b><span>${d.r}</span></span></figcaption></figure>`);
+    dots.insertAdjacentHTML('beforeend',`<button class="${i===0?'on':''}" aria-label="Testimonial ${i+1}"></button>`);
+  });
+  const cards=wrap.querySelectorAll('.testi'), btns=dots.querySelectorAll('button');
+  let idx=0, timer;
+  window.goTesti=function(i,manual){
+    cards[idx].classList.remove('active');btns[idx].classList.remove('on');
+    idx=(i+cards.length)%cards.length;
+    cards[idx].classList.add('active');btns[idx].classList.add('on');
+    if(manual){clearInterval(timer);start();}
+  };
+  function start(){timer=setInterval(()=>goTesti(idx+1),5500);}
+  dots.querySelectorAll('button').forEach((b,i)=>b.addEventListener('click',()=>goTesti(i,true)));
+  start();
+})();
+
+/* ---------- HERO IMAGE SLIDESHOW ---------- */
+(function(){
+  const slides=document.querySelectorAll('#heroSlides .hero-slide');
+  if(slides.length<2)return;
+  let i=0;
+  setInterval(()=>{
+    slides[i].classList.remove('active');
+    i=(i+1)%slides.length;
+    slides[i].classList.add('active');
+  },5000);
+})();
+
+/* ---------- DATA ---------- */
+const services=[
+  {ic:'M22 12h-4l-3 9L9 3l-3 9H2',t:'Emergency & Trauma',d:'Round-the-clock emergency response with rapid triage and critical care.',l:['24/7 ER','Ambulance dispatch','Trauma surgery']},
+  {ic:'M12 21s-8-4.5-8-11a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 6.5-8 11-8 11z',t:'Cardiology',d:'Comprehensive heart care from prevention to advanced intervention.',l:['ECG & echo','Angioplasty','Cardiac rehab']},
+  {ic:'M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM3 21v-2a6 6 0 0 1 6-6',t:'Pediatrics',d:'Gentle, specialized care for infants, children, and teens.',l:['Newborn care','Vaccinations','Child development']},
+  {ic:'M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z',t:'Neurology',d:'Expert diagnosis and treatment of brain and nervous system conditions.',l:['Stroke care','EEG/MRI','Epilepsy clinic']},
+  {ic:'M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2',t:'Radiology & Imaging',d:'High-precision diagnostic imaging using the latest technology.',l:['MRI & CT','Ultrasound','Digital X-ray']},
+  {ic:'M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z',t:'Oncology',d:'Compassionate, multidisciplinary cancer care and support.',l:['Chemotherapy','Radiation','Patient support']},
+  {ic:'M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z',t:'Maternity & Women\'s Health',d:'Caring support through pregnancy, birth, and beyond.',l:['Prenatal care','Delivery suites','Gynecology']},
+  {ic:'M4 4h16v16H4zM4 12h16M12 4v16',t:'Orthopedics',d:'Restoring movement with surgical and non-surgical bone & joint care.',l:['Joint replacement','Sports injury','Physiotherapy']},
+  {ic:'M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6',t:'General Medicine',d:'Your first stop for diagnosis, treatment, and ongoing wellness.',l:['Health check-ups','Chronic care','Lab services']}
+];
+/* Doctor roster auto-generated from photo filenames in assets/img/doctors/.
+   Specialty is a placeholder ('Consultant') — update each entry's `s` with the real specialty. */
+const docPhotos=[
+  ['Anacta-Pring','anacta-pring'],['Aquino','aquino'],['Bartolome','bartolome'],['Basilio','basilio'],
+  ['Bautista C.','bautista-c'],['Bautista M.','bautista-m'],['Bongon','bongon'],['Caballero R.','caballero-r'],
+  ['Carlos E.','carlos-e'],['Cedeño J.','cedeno-j'],['Cedeño R.','cedeno-r'],['Cellona','cellona'],
+  ['Francisco M.','francisco-m'],['Galicia','galicia'],['Galutira','galutira'],['Guinto C.','guinto-c'],
+  ['Guinto P.','guinto-p'],['Imperial','imperial'],['Inoturan','inoturan'],['Kasaju','kasaju'],
+  ['Manzano','manzano'],['Matheus','matheus'],['Millare','millare'],['Moratalla','moratalla'],
+  ['Panopio','panopio'],['Posio','posio'],['Redecio','redecio'],['Retreta','retreta'],
+  ['Reyes C.','reyes-c'],['Reyes L.','reyes-l'],['Salvino','salvino'],['Santiago','santiago'],
+  ['Santos E.','santos-e'],['Santos J.','santos-j'],['Segador G.','segador-g'],['Untalan','untalan'],
+  ['Velasco','velasco'],['Villanueva','villanueva']
+];
+const doctors=docPhotos.map(([name,file])=>({
+  n:'Dr. '+name, s:'Consultant', dept:'Consultant',
+  img:'assets/img/doctors/'+file+'.webp'
+}));
+const faqs=[
+  {q:'How do I book an appointment?',a:'You can book online through our Online Feedback & Appointments page, or call our hotline at +63 939 910 9974. Same-day urgent slots are available for many departments.'},
+  {q:'What should I bring to my visit?',a:'Please bring a valid photo ID, your insurance card, a list of current medications, and any relevant medical records or referral letters.'},
+  {q:'Do you accept insurance?',a:'Yes, we work with most major insurance providers. Our billing team can verify your coverage and explain any out-of-pocket costs before treatment.'},
+  {q:'Can family members stay overnight?',a:'One companion may stay overnight in most private rooms and in pediatrics. Please coordinate with the ward nurse for arrangements.'},
+  {q:'Is parking available?',a:'Yes, free on-site parking is available with dedicated accessible spaces at both the main entrance and the Emergency Department.'},
+  {q:'How do I get my test results?',a:'Results are available through our digital patient portal, or you can request them at the records desk with valid identification.'}
+];
+
+/* ---------- RENDER ---------- */
+const sg=document.getElementById('servicesGrid');
+services.forEach(s=>{
+  sg.insertAdjacentHTML('beforeend',`<div class="card"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${s.ic}"/></svg></div><h3>${s.t}</h3><p>${s.d}</p><ul>${s.l.map(x=>`<li>${x}</li>`).join('')}</ul></div>`);
+});
+
+const dg=document.getElementById('docGrid');
+function docCardHTML(d){
+  return `<div class="doc-card"><div class="doc-photo"><span class="doc-tag">${d.dept}</span><img src="${d.img}" alt="${d.n}" loading="lazy" decoding="async" onerror="this.src='assets/img/nopicdoc/logonopic.webp'"></div><div class="doc-body"><h3>${d.n}</h3><div class="doc-spec">${d.s}</div><p>Board-certified physician at Bicutan Medical Center.</p><div class="doc-meta"><span>📅 Available by appointment</span></div></div></div>`;
+}
+/* ----- DOCTORS: filter + search + pagination ----- */
+const PER_PAGE=8;
+const docState={q:'',dept:'All',page:1};
+function getFilteredDocs(){
+  const q=docState.q.trim().toLowerCase();
+  return doctors.filter(d=>
+    (docState.dept==='All'||d.dept===docState.dept) &&
+    (!q||d.n.toLowerCase().includes(q)||d.s.toLowerCase().includes(q))
+  );
+}
+function renderDocPage(){
+  const list=getFilteredDocs();
+  const pages=Math.max(1,Math.ceil(list.length/PER_PAGE));
+  if(docState.page>pages)docState.page=pages;
+  if(docState.page<1)docState.page=1;
+  const start=(docState.page-1)*PER_PAGE;
+  const slice=list.slice(start,start+PER_PAGE);
+  dg.innerHTML = slice.length
+    ? slice.map(docCardHTML).join('')
+    : '<p style="grid-column:1/-1;text-align:center;color:var(--slate);padding:40px 0">No doctors match your search.</p>';
+  renderPaging(pages,list.length);
+  const clr=document.getElementById('docSearchClr');
+  if(clr)clr.classList.toggle('show',!!docState.q);
+}
+function renderPaging(pages){
+  const pg=document.getElementById('docPaging');
+  if(pages<=1){pg.innerHTML='';return;}
+  let h=`<button class="pg-btn" ${docState.page===1?'disabled':''} onclick="gotoDocPage(${docState.page-1})">‹</button>`;
+  for(let i=1;i<=pages;i++){h+=`<button class="pg-btn ${i===docState.page?'active':''}" onclick="gotoDocPage(${i})">${i}</button>`;}
+  h+=`<button class="pg-btn" ${docState.page===pages?'disabled':''} onclick="gotoDocPage(${docState.page+1})">›</button>`;
+  pg.innerHTML=h;
+}
+function gotoDocPage(p){docState.page=p;renderDocPage();document.querySelector('#doctors .sec-head').scrollIntoView({behavior:'smooth',block:'start'});}
+function docSearch(v){docState.q=v;docState.page=1;renderDocPage();}
+function clearDocSearch(){docState.q='';docState.page=1;const i=document.getElementById('docSearchInput');if(i)i.value='';renderDocPage();}
+function renderDocs(){renderDocPage();} /* back-compat alias */
+
+/* ----- HOME "Find Your Doctor" search ----- */
+const hdsSpec=document.getElementById('hdsSpec');
+[...new Set(doctors.map(d=>d.s))].sort().forEach(s=>hdsSpec.insertAdjacentHTML('beforeend',`<option value="${s}">${s}</option>`));
+function homeDocSearch(e){
+  if(e)e.preventDefault();
+  const name=(document.getElementById('hdsName').value||'').trim();
+  const spec=hdsSpec.value;
+  go('doctors');
+  docState.q=name||spec;
+  docState.dept='All';
+  docState.page=1;
+  const si=document.getElementById('docSearchInput');if(si)si.value=docState.q;
+  document.querySelectorAll('#docFilter button').forEach((b,i)=>b.classList.toggle('active',i===0));
+  renderDocPage();
+}
+const depts=['All',...new Set(doctors.map(d=>d.dept))];
+const df=document.getElementById('docFilter');
+if(depts.length>2){
+  depts.forEach((dp,i)=>df.insertAdjacentHTML('beforeend',`<button class="${i===0?'active':''}" onclick="filterDoc(this,'${dp}')">${dp}</button>`));
+}else{
+  df.style.display='none'; /* only one category (placeholder) — hide filter until real specialties are set */
+}
+function filterDoc(btn,dp){document.querySelectorAll('#docFilter button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');docState.dept=dp;docState.page=1;renderDocPage();}
+renderDocPage();
+
+/* department dropdown in form */
+const deptSel=document.querySelector('select[name=dept]');
+[...new Set(doctors.map(d=>d.dept))].forEach(d=>deptSel.insertAdjacentHTML('beforeend',`<option>${d}</option>`));
+
+const faqBox=document.getElementById('faq');
+faqs.forEach(f=>{
+  faqBox.insertAdjacentHTML('beforeend',`<div class="ac-item"><div class="ac-head" onclick="toggleAc(this)">${f.q}<span class="pl">+</span></div><div class="ac-body"><p>${f.a}</p></div></div>`);
+});
+function toggleAc(h){
+  const item=h.parentElement;const body=h.nextElementSibling;
+  const open=item.classList.contains('open');
+  document.querySelectorAll('.ac-item').forEach(i=>{i.classList.remove('open');i.querySelector('.ac-body').style.maxHeight=null;});
+  if(!open){item.classList.add('open');body.style.maxHeight=body.scrollHeight+'px';}
+}
+
+/* ---------- STARS ---------- */
+let rating=0;
+document.querySelectorAll('#stars span').forEach(st=>{
+  st.addEventListener('click',()=>{rating=+st.dataset.v;paintStars();});
+});
+function paintStars(){document.querySelectorAll('#stars span').forEach(s=>s.classList.toggle('on',+s.dataset.v<=rating));}
+
+/* ---------- FORM VALIDATION ---------- */
+const form=document.getElementById('fbForm');
+/* Submissions are delivered by FormSubmit (https://formsubmit.co) straight to
+   the hospital inbox — no backend or signup needed. IMPORTANT: the FIRST time a
+   submission is sent, FormSubmit emails infoadmittingbmci@gmail.com a one-time
+   confirmation link that must be clicked to activate delivery. */
+const FORM_ENDPOINT='https://formsubmit.co/ajax/infoadmittingbmci@gmail.com';
+form.addEventListener('submit',async e=>{
+  e.preventDefault();
+  let ok=true;
+  const setErr=(name,bad)=>{const f=form[name].closest('.field');f.classList.toggle('err',bad);if(bad)ok=false;};
+  const v=n=>form[n].value.trim();
+  setErr('name',v('name').length<2);
+  setErr('email',!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('email')));
+  setErr('type',v('type')==='');
+  setErr('message',v('message').length<5);
+  if(!ok){form.querySelector('.field.err input,.field.err select,.field.err textarea')?.focus();return;}
+  const type=v('type');
+  const btn=form.querySelector('button[type=submit]');
+  const btnTxt=btn.textContent; btn.disabled=true; btn.textContent='Sending…';
+  const payload={
+    name:v('name'),email:v('email'),phone:v('phone'),
+    request_type:type,department:v('dept')||'Any',
+    rating:rating?rating+' / 5':'Not rated',
+    message:v('message'),
+    _subject:'New BMC website '+(type==='Appointment Request'?'appointment request':'feedback')+' — '+v('name')
+  };
+  try{
+    const r=await fetch(FORM_ENDPOINT,{method:'POST',headers:{'content-type':'application/json',accept:'application/json'},body:JSON.stringify(payload)});
+    if(!r.ok)throw new Error('send failed');
+  }catch(err){
+    /* network/endpoint issue — let the user know instead of faking success */
+    btn.disabled=false; btn.textContent=btnTxt;
+    alert('Sorry, we couldn’t send your message right now. Please call us at 02 8538 1280 or email infoadmittingbmci@gmail.com.');
+    return;
+  }
+  document.getElementById('successMsg').textContent = type==='Appointment Request'
+    ? 'Your appointment request has been received. Our scheduling team will confirm your slot within 24 hours.'
+    : 'Your feedback has been received. Our patient care team will respond within 24 hours.';
+  form.style.display='none';
+  document.getElementById('fbSuccess').style.display='block';
+  btn.disabled=false; btn.textContent=btnTxt;
+});
+['name','email','type','message'].forEach(n=>{
+  form[n].addEventListener('input',()=>form[n].closest('.field').classList.remove('err'));
+});
+function resetForm(){
+  form.reset();rating=0;paintStars();
+  form.querySelectorAll('.field').forEach(f=>f.classList.remove('err'));
+  document.getElementById('fbSuccess').style.display='none';
+  form.style.display='block';
+}
+
+/* ===== HMO MARQUEE ===== */
+const hmoLogos=[
+  'maxicare.png','intellicare.png','avega.png','medicard.png','valucare.png','philbritish.png',
+  'forticare.webp','flexicare.png','benlife.png','philcare.png','amaphil.png','coophealth.webp',
+  'sunlifegrepa.png','pacificcross.png','asiancare.avif','cocolife.png','lacsonlacson.png','medasia.png',
+  'wellcare.png','hppi.png','carewell.png','icare.png','kaiser.png','generali.jpg'
+];
+function fillTrack(track,list){
+  const cell=name=>`<div class="hmo-logo"><img src="assets/img/hmo/${name}" alt="${name.split('.')[0]} HMO" loading="lazy"></div>`;
+  const html=list.map(cell).join('');
+  track.innerHTML=html+html; /* duplicate for seamless loop */
+}
+const half=Math.ceil(hmoLogos.length/2);
+fillTrack(document.getElementById('hmoTrack1'),hmoLogos.slice(0,half));
+fillTrack(document.getElementById('hmoTrack2'),hmoLogos.slice(half));
+
+/* ===== SCROLL REVEAL ===== */
+const rvObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('in');
+    e.target.addEventListener('transitionend', () => {
+      e.target.classList.remove('rv','rv-l','rv-r','rv-s');
+      e.target.style.transitionDelay = '';
+    }, {once:true});
+    rvObs.unobserve(e.target);
+  });
+}, {threshold: .12});
+
+function addRv(el, cls='rv', delay=0) {
+  el.classList.add(cls);
+  if (delay) el.style.transitionDelay = delay + 'ms';
+  rvObs.observe(el);
+}
+
+function initReveal() {
+  document.querySelectorAll('.strip .item').forEach((el,i) => addRv(el,'rv',i*80));
+  document.querySelectorAll('.sec-head').forEach(el => addRv(el,'rv'));
+  document.querySelectorAll('#home section:not(.hero) .card').forEach((el,i) => addRv(el,'rv',i*90));
+  document.querySelectorAll('#servicesGrid .card').forEach((el,i) => addRv(el,'rv',i*70));
+  document.querySelectorAll('.doc-card').forEach((el,i) => addRv(el,'rv',i*55));
+  const aboutImg = document.querySelector('.about-hero img');
+  if (aboutImg) addRv(aboutImg,'rv-l');
+  document.querySelectorAll('.about-hero>div').forEach(el => addRv(el,'rv'));
+  document.querySelectorAll('.value').forEach((el,i) => addRv(el,'rv-s',i*100));
+  document.querySelectorAll('.tl-item').forEach((el,i) => addRv(el,'rv-l',i*75));
+  document.querySelectorAll('.vm-card').forEach((el,i) => addRv(el, i===0?'rv-l':'rv-r'));
+  document.querySelectorAll('.cv').forEach((el,i) => addRv(el,'rv-s',i*90));
+  document.querySelectorAll('.visit-grid .vc').forEach((el,i) => addRv(el,'rv',i*85));
+  document.querySelectorAll('.cta-banner').forEach(el => addRv(el,'rv-s'));
+  document.querySelectorAll('.fac').forEach((el,i) => addRv(el,'rv-s',i*70));
+  document.querySelectorAll('.docsearch').forEach(el => addRv(el,'rv-s'));
+  document.querySelectorAll('.map-info').forEach(el => addRv(el,'rv-l'));
+  document.querySelectorAll('.map-frame').forEach(el => addRv(el,'rv-r'));
+  document.querySelectorAll('.ac-item').forEach((el,i) => addRv(el,'rv',i*55));
+  document.querySelectorAll('.info-card').forEach(el => addRv(el,'rv-r'));
+  document.querySelectorAll('.fb-intro').forEach(el => addRv(el,'rv-l'));
+  document.querySelectorAll('.form').forEach(el => addRv(el,'rv-r'));
+  document.querySelectorAll('.foot-col').forEach((el,i) => addRv(el,'rv',i*70));
+}
+
+/* Re-apply reveal after doc filter */
+filterDoc = function(btn, dp) {
+  document.querySelectorAll('#docFilter button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderDocs(dp);
+  document.querySelectorAll('.doc-card').forEach((el,i) => addRv(el,'rv',i*55));
+};
+
+initReveal();
+
+/* close mobile menu on outside click */
+document.addEventListener('click',e=>{
+  const menu=document.getElementById('menu'),burger=document.getElementById('burger');
+  if(menu.classList.contains('show')&&!menu.contains(e.target)&&!burger.contains(e.target)){
+    menu.classList.remove('show');burger.classList.remove('open');
+  }
+});
+
+/* ---------- CHAT ASSISTANT (rule-based Q&A) ---------- */
+const chatKB=[
+  {k:['appointment','book','schedule','consult','reserve'],a:'You can request an appointment on our <a onclick="go(\'feedback\');toggleChat()">Online Feedback &amp; Appointments</a> page, or call us at <a href="tel:+63285381280">02 8538 1280</a>. 📅'},
+  {k:['hour','open','close','time','24','schedule of'],a:'We are <b>open 24 hours, 7 days a week</b>. 🕐<br>Visiting hours — General Wards: 9 AM–8 PM · ICU: 11 AM–1 PM · Maternity: 10 AM–7 PM.'},
+  {k:['where','location','address','direction','map','located','navigate'],a:'📍 We are at <b>Bicutan Medical Center, M. L. Quezon Avenue, Taguig, Metro Manila</b>. Our nearest landmark is Ricardo P. Cruz Sr. Elementary School.'},
+  {k:['contact','phone','number','call','email','viber','sms','reach'],a:'Here\'s how to reach us:<br>📱 Mobile: <a href="tel:+639399109974">+63 939 910 9974</a><br>☎️ Telephone: <a href="tel:+63285381280">02 8538 1280</a><br>✉️ <a href="mailto:infoadmittingbmci@gmail.com">infoadmittingbmci@gmail.com</a>'},
+  {k:['hmo','insurance','accredit','maxicare','intellicare','medicard','philhealth','coverage'],a:'We accept most major HMOs — Maxicare, Intellicare, Medicard, ValuCare, Kaiser, PhilCare, and many more. You\'ll find the full list on our home page. 💳'},
+  {k:['service','department','treatment','specialt','echo','ct scan','x-ray','xray','lab','imaging'],a:'Our services include Emergency &amp; Trauma, Cardiology, Pediatrics, Neurology, Radiology &amp; Imaging, Oncology, Maternity, Orthopedics, and General Medicine — plus 2D echo and CT scan. <a onclick="go(\'services\');toggleChat()">View all services</a>. 🏥'},
+  {k:['doctor','specialist','physician','find a doctor','consultant'],a:'You can browse our specialists on the <a onclick="go(\'doctors\');toggleChat()">Doctors page</a>, or use the “Find Your Doctor” search on the home page. 🩺'},
+  {k:['emergency','urgent','er ','ambulance','accident'],a:'🚑 For emergencies, call <a href="tel:+639399109974">+63 939 910 9974</a> immediately — our Emergency Room is open 24/7.'},
+  {k:['bed','capacity','room','admit','confine'],a:'We are a <b>100-bed capacity hospital</b> with private consultation rooms and comfortable patient facilities. For admissions, call <a href="tel:+63285381280">02 8538 1280</a>.'},
+  {k:['feedback','complaint','suggestion','review'],a:'We\'d love to hear from you! Please share your thoughts on our <a onclick="go(\'feedback\');toggleChat()">Online Feedback</a> page. 💬'},
+  {k:['hello','hi','hey','good morning','good afternoon','good evening','kumusta'],a:'Hello! 👋 How can I help you today? You can ask about appointments, hours, location, services, or HMOs.'},
+  {k:['thank','salamat'],a:'You\'re welcome! 😊 Is there anything else I can help you with?'},
+  {k:['bye','goodbye','done'],a:'Take care! 💚 Remember, we\'re open 24/7 if you need us.'}
+];
+const chatFallback='I\'m a simple assistant for quick info. 🙏 For anything else, please call <a href="tel:+63285381280">02 8538 1280</a> or use our <a onclick="go(\'feedback\');toggleChat()">Online Feedback</a> page.';
+const quickReplies=[
+  {l:'📅 Appointment',q:'book appointment'},
+  {l:'🕐 Hours',q:'opening hours'},
+  {l:'📍 Location',q:'location'},
+  {l:'📞 Contact',q:'contact number'},
+  {l:'🏥 Services',q:'services'},
+  {l:'💳 HMOs',q:'hmo accepted'}
+];
+let chatStarted=false;
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function chatScroll(){const b=document.getElementById('chatBody');b.scrollTop=b.scrollHeight;}
+function botSay(html){document.getElementById('chatBody').insertAdjacentHTML('beforeend',`<div class="msg bot">${html}</div>`);chatScroll();}
+function userSay(text){document.getElementById('chatBody').insertAdjacentHTML('beforeend',`<div class="msg user">${esc(text)}</div>`);chatScroll();}
+function findAnswer(text){const t=text.toLowerCase();for(const e of chatKB){if(e.k.some(k=>t.includes(k)))return e.a;}return chatFallback;}
+/* If a Claude-powered backend (api/chat.js) is deployed, the widget uses it for
+   real AI answers; otherwise it transparently falls back to the rule-based KB. */
+const CHAT_API='/api/chat';
+let chatHistory=[];
+let chatAIAvailable=true; /* flips off after a failed/unreachable call */
+function showTyping(){const b=document.getElementById('chatBody');b.insertAdjacentHTML('beforeend','<div class="msg bot typing" id="chatTyping"><span></span><span></span><span></span></div>');chatScroll();}
+function clearTyping(){const t=document.getElementById('chatTyping');if(t)t.remove();}
+async function botRespond(text){
+  showTyping();
+  if(chatAIAvailable){
+    try{
+      const ctrl=new AbortController();const to=setTimeout(()=>ctrl.abort(),12000);
+      const r=await fetch(CHAT_API,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({message:text,history:chatHistory}),signal:ctrl.signal});
+      clearTimeout(to);
+      if(!r.ok)throw new Error('no backend');
+      const data=await r.json();
+      clearTyping();
+      const reply=(data.reply||findAnswer(text));
+      botSay(esc(reply).replace(/\n/g,'<br>'));
+      chatHistory.push({role:'user',content:text},{role:'assistant',content:reply});
+      if(chatHistory.length>12)chatHistory=chatHistory.slice(-12);
+      return;
+    }catch(err){chatAIAvailable=false;/* fall through to rule-based */}
+  }
+  setTimeout(()=>{clearTyping();botSay(findAnswer(text));},500);
+}
+function chatSend(e){e.preventDefault();const inp=document.getElementById('chatInput');const v=inp.value.trim();if(!v)return;userSay(v);inp.value='';botRespond(v);}
+function chatAsk(q,label){userSay(label);botRespond(q);}
+function toggleChat(){
+  const open=document.body.classList.toggle('chat-open');
+  if(open){
+    if(!chatStarted){
+      chatStarted=true;
+      botSay('Hi there! 👋 I\'m the <b>BMC virtual assistant</b>. Ask me a question, or tap one of the quick options below.');
+    }
+    setTimeout(()=>document.getElementById('chatInput').focus(),320);
+  }
+}
+(function(){
+  const cq=document.getElementById('chatQuick');
+  quickReplies.forEach(r=>cq.insertAdjacentHTML('beforeend',`<button type="button" onclick="chatAsk('${r.q}','${r.l}')">${r.l}</button>`));
+})();
+</script>
+</body>
+</html>

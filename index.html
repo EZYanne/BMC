@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Bicutan Medical Center — Quality Healthcare in Taguig, Open 24/7</title>
+<meta name="description" content="Bicutan Medical Center is a 100-bed private hospital in Taguig City, open 24 hours. Expert specialist doctors, modern diagnostics (2D echo, CT scan), and compassionate, affordable care.">
+<meta name="keywords" content="Bicutan Medical Center, hospital Taguig, 24/7 hospital, specialist doctors Taguig, emergency room, HMO accredited hospital">
+<meta name="author" content="Bicutan Medical Center Inc.">
+<meta name="theme-color" content="#157a40">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bicutan Medical Center — Caring for Life, 24/7">
+<meta property="og:description" content="A 100-bed private hospital in Taguig City with expert specialists and modern facilities. Always open.">
+<meta property="og:image" content="assets/img/background/bg1.jpg">
+<meta property="og:locale" content="en_PH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bicutan Medical Center — Caring for Life, 24/7">
+<meta name="twitter:description" content="Quality, compassionate healthcare in Taguig City. Open 24 hours, every day.">
+<meta name="twitter:image" content="assets/img/background/bg1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Marcellus&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="icon" type="image/png" href="assets/img/logo/logo1.png">
+<link rel="apple-touch-icon" href="assets/img/logo/logo1.png">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Hospital",
+  "name":"Bicutan Medical Center Inc.",
+  "description":"A 100-bed private hospital in Taguig City offering 24/7 expert, compassionate, and affordable healthcare.",
+  "image":"assets/img/background/bg1.jpg",
+  "url":"https://bicutanmed.com",
+  "telephone":"+63285381280",
+  "email":"infoadmittingbmci@gmail.com",
+  "medicalSpecialty":["Emergency","Cardiology","Pediatrics","Neurology","Radiology","Oncology","Obstetric","Orthopedic","InternalMedicine"],
+  "address":{"@type":"PostalAddress","streetAddress":"191 M. L. Quezon Avenue","addressLocality":"Taguig","addressRegion":"Metro Manila","postalCode":"1632","addressCountry":"PH"},
+  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
+  "availableService":{"@type":"MedicalProcedure","name":"Emergency Care, 2D Echo, CT Scan, Laboratory, Diagnostics"}
+}
+</script>
+<link rel="preload" as="image" href="assets/img/background/bg1.jpg">
+<!-- Analytics: set GA_ID to your GA4 Measurement ID (e.g. 'G-XXXXXXXXXX') to enable. Inert until then. -->
+<script>
+  window.GA_ID='';
+  if(window.GA_ID){
+    var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config',GA_ID);
+  }
+</script>
+<link rel="stylesheet" href="styles.css?v=20260606a">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+<div class="scroll-prog" id="scrollProg"></div>
+
+<div class="emergency">
+  <span class="ei"><span class="ei-ic"><i class="fa-solid fa-mobile-screen-button"></i></span><span class="ei-txt"><b>Mobile</b><a href="tel:+639399109974">+63 939 910 9974</a></span></span>
+  <span class="ei-sep"></span>
+  <span class="ei"><span class="ei-ic"><i class="fa-solid fa-phone"></i></span><span class="ei-txt"><b>Telephone</b><a href="tel:+63285381280">02 8538 1280</a></span></span>
+  <span class="ei-sep"></span>
+  <span class="ei"><span class="ei-ic"><i class="fa-solid fa-envelope"></i></span><span class="ei-txt"><b>Email Us</b><a href="mailto:infoadmittingbmci@gmail.com">infoadmittingbmci@gmail.com</a></span></span>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#" onclick="go('home');return false">
+      <img class="logo-mark" src="assets/img/logo/logo1.png" alt="BicutanMed logo">
+      <img class="logo-text" src="assets/img/logo/bicutanmed-text.webp" alt="BicutanMed">
+    </a>
+    <ul class="menu" id="menu">
+      <li class="menu-top"><span class="menu-brand">Menu</span><button class="menu-x" onclick="toggleMenu()" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button></li>
+      <li><button data-page="home" class="active" onclick="go('home')">Home</button></li>
+      <li class="has-dropdown">
+        <button data-page="services" onclick="navItem('services',event)">Services <i class="fa-solid fa-chevron-down caret"></i></button>
+        <ul class="dropdown">
+          <li><a onclick="go('services')">Medical Services</a></li>
+          <li><a onclick="go('packages')">Healthcare Packages</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <button data-page="doctors" onclick="navItem('doctors',event)">Doctors <i class="fa-solid fa-chevron-down caret"></i></button>
+        <ul class="dropdown">
+          <li><a onclick="go('docSchedules')">Doctor Schedules</a></li>
+          <li><a onclick="go('doctors')">View Doctors</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <button data-page="patients" onclick="navItem('patients',event)">Patients &amp; Visitors <i class="fa-solid fa-chevron-down caret"></i></button>
+        <ul class="dropdown">
+          <li><a onclick="go('patients')">Inpatient Rooms</a></li>
+          <li><a onclick="go('medicalRecords')">Medical Records</a></li>
+          <li><a onclick="goGuide()">Patient &amp; Visitor's Guide</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <button data-page="about" onclick="navItem('about',event)">About Us <i class="fa-solid fa-chevron-down caret"></i></button>
+        <ul class="dropdown">
+          <li><a onclick="go('about')">About Us</a></li>
+          <li><a onclick="go('career')">Career</a></li>
+          <li><a onclick="goContact('feedback')">Online Feedback Form</a></li>
+        </ul>
+      </li>
+      <li class="menu-extra">
+        <div class="menu-hmo">
+          <span class="menu-hmo-label">We accept major HMOs</span>
+          <div class="menu-hmo-marquee"><div class="menu-hmo-track" id="menuHmoTrack"></div></div>
+        </div>
+        <div class="menu-contact">
+          <a href="tel:+639399109974"><i class="fa-solid fa-mobile-screen-button"></i> +63 939 910 9974</a>
+          <a href="tel:+63285381280"><i class="fa-solid fa-phone"></i> 02 8538 1280</a>
+          <a href="mailto:infoadmittingbmci@gmail.com"><i class="fa-solid fa-envelope"></i> infoadmittingbmci@gmail.com</a>
+        </div>
+        <div class="menu-social">
+          <a href="https://www.facebook.com/bicutanmedicalcenter" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/bicutanmedicalcenter/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@bicutanmed" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </li>
+    </ul>
+    <div class="nav-cta">
+      <button class="btn" onclick="goContact('appointment')">Book / Feedback</button>
+      <button class="hamburger" id="burger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HOME ============ -->
+<div class="page active" id="home">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Compassionate care, trusted expertise</span>
+        <h1>Bicutan Medical Center<br><em>Caring for life.</em></h1>
+        <p>At Bicutan Medical Center, we prioritize the health and well-being of our patients. With top-notch medical equipment and a team of expert practitioners in various specializations, we deliver quality healthcare in a comfortable and safe environment. Trust us to take care of your health needs.</p>
+        <div class="hero-actions">
+          <button class="btn" onclick="goContact('appointment')">Request an Appointment</button>
+          <button class="btn btn-ghost" onclick="go('services')">Explore Services</button>
+        </div>
+        <div class="hero-stats">
+          <div><div class="num">3+</div><div class="lbl">Years of Service</div></div>
+          <div><div class="num">110+</div><div class="lbl">Specialist Doctors</div></div>
+          <div><div class="num">100+</div><div class="lbl">Hospital Beds</div></div>
+          <div><div class="num">90%</div><div class="lbl">Patient Satisfaction</div></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-card" id="heroSlides">
+          <img class="hero-slide active" src="assets/img/background/bg1.jpg" alt="Bicutan Medical Center" fetchpriority="high" decoding="async">
+          <img class="hero-slide" src="assets/img/background/bg2.jpg" alt="Bicutan Medical Center facility" loading="lazy" decoding="async">
+        </div>
+        <div class="badge-float bf1">
+          <span class="ic" style="background:var(--teal)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.3"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8L12 21l8.8-8.5a5.5 5.5 0 0 0 0-7.9z"/></svg></span>
+          <div><strong>Patient-first</strong><span>Care that listens</span></div>
+        </div>
+        <div class="badge-float bf2">
+          <span class="ic" style="background:var(--coral)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.3"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+          <div><strong>Always Open</strong><span>Emergency 24/7</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="docsearch">
+      <div class="ds-head">
+        <span class="eyebrow">Find your doctor</span>
+        <h3>Search Our Specialists</h3>
+        <p>Look up a physician by name, or browse by their area of specialization.</p>
+      </div>
+      <form class="ds-form" onsubmit="homeDocSearch(event)">
+        <div class="ds-input">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" id="hdsName" placeholder="Search by doctor name…" autocomplete="off">
+        </div>
+        <div class="ds-input">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3v7a5 5 0 0 0 10 0V3"/><path d="M14 10a5 5 0 0 0 5 5 3 3 0 0 0 3-3v-1"/><circle cx="20" cy="9" r="2"/></svg>
+          <select id="hdsSpec"><option value="">All Specializations</option></select>
+        </div>
+        <button class="btn" type="submit">Search Doctors</button>
+      </form>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Got questions?</span><h2>Frequently Asked Questions</h2><p>You can reach us at <a href="tel:+63285381280">(02) 8538 1280</a> / <a href="tel:+639399109974">0939 910 9974</a>.</p></div>
+      <div class="accordion home-faq">
+        <div class="ac-item"><div class="ac-head" onclick="toggleAc(this)">Is BicutanMed a private hospital?<span class="pl">+</span></div><div class="ac-body"><p>Yes, BicutanMed is a private hospital.</p></div></div>
+        <div class="ac-item"><div class="ac-head" onclick="toggleAc(this)">Is BicutanMed PhilHealth accredited?<span class="pl">+</span></div><div class="ac-body"><p>Yes, BicutanMed is accredited by PhilHealth.</p></div></div>
+        <div class="ac-item"><div class="ac-head" onclick="toggleAc(this)">Is BicutanMed HMO accredited?<span class="pl">+</span></div><div class="ac-body"><p>Yes, Bicutan Medical Center (BicutanMed) is accredited by several Health Maintenance Organizations (HMOs) in the Philippines. You can find the complete list of our HMOs on the <a onclick="go('guide');showGuideTab('hmos')">Patient &amp; Visitor's Guide</a> page.</p></div></div>
+        <div class="ac-item"><div class="ac-head" onclick="toggleAc(this)">What specialists are available at BicutanMed?<span class="pl">+</span></div><div class="ac-body"><p>Bicutan Medical Center has a team of highly skilled specialists. You can find the complete list of our specialists on the <a onclick="go('docSchedules')">Doctor's Specialization</a> page.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news-sec">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">News &amp; Events</span><h2>What's New?</h2><p>The latest happenings, milestones, and health updates from Bicutan Medical Center.</p></div>
+      <div class="news-filter" id="newsFilter"></div>
+      <div class="news-grid" id="newsGrid"></div>
+    </div>
+  </section>
+
+  <section class="hmo-sec">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Accredited partners</span><h2>HMOs We Accept</h2><p>We're proudly accredited with the country's leading health maintenance organizations and insurers for your convenience.</p></div>
+    </div>
+    <div class="hmo-marquee"><div class="hmo-track" id="hmoTrack1"></div></div>
+    <div class="hmo-marquee rev" style="margin-top:22px"><div class="hmo-track" id="hmoTrack2"></div></div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Find us</span><h2>Visit Bicutan Medical Center</h2><p>We're easy to reach in the heart of New Lower Bicutan, Taguig — open and ready for you 24 hours a day.</p></div>
+      <div class="map-wrap">
+        <div class="map-info">
+          <h3>Navigate your way to us</h3>
+          <p>Our nearest landmark is Ricardo P. Cruz Sr. Elementary School. We highly encourage you to contact our information desk through Viber.</p>
+          <div class="map-static" onclick="openMapLightbox()" title="Click to view larger map">
+            <img src="assets/img/map/map.webp" alt="Map of Bicutan Medical Center area" loading="lazy" decoding="async">
+            <span class="pin"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Bicutan Medical Center</span>
+            <span class="map-open"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M14 10l7-7M9 21H3v-6M10 14l-7 7"/></svg></span>
+          </div>
+          <div class="map-detail">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><h4>Address</h4><p>191 M. L. Quezon Ave, Taguig,<br>1632 Metro Manila</p></div>
+          </div>
+          <div class="map-detail">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <div><h4>Contact Us</h4><p><a href="tel:+63285381280">02 8538 1280</a> | <a href="tel:+639399109974">+639399109974</a> SMS/Viber</p></div>
+          </div>
+          <div class="map-detail">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+            <div><h4>Hours</h4><p>Open 24 Hours · 7 Days a Week</p></div>
+          </div>
+          <a class="btn" href="https://maps.app.goo.gl/tSLjvzPZz8odmTJv7" target="_blank" rel="noopener">Get Directions →</a>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps?q=Bicutan+Medical+Center,+M.+L.+Quezon+Ave,+Taguig,+1632+Metro+Manila&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bicutan Medical Center location map" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="cta-banner">
+        <h2>Ready to take charge of your health?</h2>
+        <p>Schedule a consultation with one of our specialists today, or send us your feedback to help us serve you better.</p>
+        <button class="btn" onclick="goContact('appointment')">Get Started →</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Take a look around</span><h2>Our Facilities</h2><p>Modern, comfortable, and fully equipped spaces designed to make your care experience safe and reassuring.</p></div>
+      <div class="facility-grid">
+        <div class="fac"><img src="assets/img/facility/facility1.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Reception &amp; Lobby</span></div>
+        <div class="fac"><img src="assets/img/facility/facility2.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Consultation Room</span></div>
+        <div class="fac"><img src="assets/img/facility/facility3.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Patient Room</span></div>
+        <div class="fac"><img src="assets/img/facility/facility4.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Nurse Station</span></div>
+        <div class="fac"><img src="assets/img/facility/facility5.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Diagnostics</span></div>
+        <div class="fac"><img src="assets/img/facility/facility6.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Treatment Area</span></div>
+        <div class="fac"><img src="assets/img/facility/facility7.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Waiting Lounge</span></div>
+        <div class="fac"><img src="assets/img/facility/facility8.webp" alt="Bicutan Medical Center facility" loading="lazy"><span class="fac-cap">Hospital Wing</span></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<div class="page" id="services">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">What we offer</span><h2>Our Medical Services</h2><p>Comprehensive, coordinated care across more than 40 specialties — all under one roof.</p></div>
+      <div class="grid g3" id="servicesGrid"></div>
+    </div>
+  </section>
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="cta-banner">
+        <h2>Not sure which service you need?</h2>
+        <p>Our care coordinators will help guide you to the right specialist. Reach out anytime.</p>
+        <button class="btn" onclick="goContact('appointment')">Contact Us</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ SERVICE DETAIL ============ -->
+<div class="page" id="serviceDetail">
+  <section>
+    <div class="wrap">
+      <button class="svc-back" onclick="go('services')"><i class="fa-solid fa-arrow-left"></i> Back to Services</button>
+      <div class="svc-detail">
+        <div class="svc-detail-img"><img id="sdImg" src="" alt=""></div>
+        <div class="svc-detail-body">
+          <span class="eyebrow">Medical Service</span>
+          <h2 id="sdTitle"></h2>
+          <p id="sdDesc"></p>
+          <div class="svc-detail-actions">
+            <button class="btn" onclick="goContact('appointment')">Book an Appointment</button>
+            <button class="btn btn-ghost" onclick="go('services')">View Other Services</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ HEALTHCARE PACKAGES ============ -->
+<div class="page" id="packages">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Affordable &amp; convenient</span><h2>Healthcare Packages</h2><p>Bundled laboratory and check-up packages designed for convenience, cost savings, and continuity of care.</p></div>
+      <div class="grid g3" id="pkgGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PACKAGE DETAIL ============ -->
+<div class="page" id="packageDetail">
+  <section>
+    <div class="wrap">
+      <button class="svc-back" onclick="go('packages')"><i class="fa-solid fa-arrow-left"></i> Back to Packages</button>
+      <div class="pkg-detail-head">
+        <div class="pkg-detail-img"><img id="pdImg" src="" alt=""></div>
+        <div class="pkg-detail-intro"><span class="eyebrow">Healthcare Package</span><h2 id="pdTitle"></h2><button class="btn" onclick="goContact('appointment')">Inquire / Book</button></div>
+      </div>
+      <div class="pkg-body" id="pdBody"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ DOCTOR SCHEDULES ============ -->
+<div class="page" id="docSchedules">
+  <section>
+    <div class="wrap">
+      <button class="svc-back" onclick="go('doctors')"><i class="fa-solid fa-arrow-left"></i> Back to Doctors</button>
+      <div class="sec-head"><span class="eyebrow">Specialist Doctors</span><h2>Find your Specialist</h2><p>Explore our list of specialist doctors for expert care.</p></div>
+      <div class="ds-trunkline">
+        <i class="fa-solid fa-phone-volume"></i>
+        <div><span>Trunkline</span><a href="tel:+63285381280">(02) 8538-1280</a></div>
+      </div>
+      <h3 class="ds-fields-title">Our team specializes in a range of medical fields, including:</h3>
+      <div class="ds-fields">
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-tooth"></i></span>Dental</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-ear-listen"></i></span>Otolaryngology – ENT</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-stethoscope"></i></span>Internal Medicine &amp; Subspecialties</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-scissors"></i></span>Surgery &amp; Surgical Specialties</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-child-reaching"></i></span>Pediatrics</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-baby"></i></span>Obstetrics &amp; Gynecology</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-eye"></i></span>Ophthalmology</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-person-walking"></i></span>Rehabilitation Medicine</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-comments"></i></span>Psychiatry</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-bone"></i></span>Orthopedics</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-brain"></i></span>Neurology</div>
+        <div class="ds-field"><span class="ds-ic"><i class="fa-solid fa-droplet"></i></span>Urology</div>
+      </div>
+      <div style="text-align:center;margin-top:38px"><button class="btn" onclick="go('doctors')">View Our Doctors →</button></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ CAREER ============ -->
+<div class="page" id="career">
+  <div class="mr-banner"><img src="assets/img/background/career.webp" alt="Careers at Bicutan Medical Center"></div>
+  <section style="padding-top:40px">
+    <div class="wrap">
+      <button class="svc-back" onclick="go('about')"><i class="fa-solid fa-arrow-left"></i> Back to About Us</button>
+      <div class="sec-head"><span class="eyebrow">We're Hiring!</span><h2>Join Our Team</h2><p>If you're interested in one of our open positions, start by applying here and attaching your resume.</p></div>
+      <div class="career-grid">
+        <div class="form">
+          <h3 class="career-form-title">Apply Now</h3>
+          <form action="https://formsubmit.co/bmcihrd191@gmail.com" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_subject" value="New BMC Career Application">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="true">
+            <div class="field"><label>Name *</label><input type="text" name="Name" required placeholder="Juan Dela Cruz"></div>
+            <div class="row2">
+              <div class="field"><label>Phone *</label><input type="tel" name="Phone" required placeholder="+63 9XX XXX XXXX"></div>
+              <div class="field"><label>Email *</label><input type="email" name="Email" required placeholder="you@email.com"></div>
+            </div>
+            <div class="field"><label>Please tell us about yourself *</label><textarea name="About You" required placeholder="Tell us about your experience and the position you're applying for…"></textarea></div>
+            <div class="field"><label>Attach your resume</label><input type="file" name="attachment" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"></div>
+            <p class="career-recaptcha">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms of Service</a> apply.</p>
+            <button type="submit" class="btn" style="width:100%;justify-content:center">Submit Application</button>
+          </form>
+        </div>
+        <aside class="career-positions">
+          <h3>Be part of our team now!</h3>
+          <h4>Available Positions</h4>
+          <ul>
+            <li>Staff Nurses</li>
+            <li>Head Nurses</li>
+            <li>Nursing Supervisors with 9 units MAN</li>
+            <li>Radtech</li>
+            <li>Clinical Pharmacist</li>
+          </ul>
+          <p>You may also send your application directly to <a href="mailto:bmcihrd191@gmail.com">bmcihrd191@gmail.com</a></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PATIENT & VISITOR'S GUIDE ============ -->
+<div class="page" id="guide">
+  <div class="mr-banner"><img src="assets/img/banner/patient-visitors.png" alt="Patients & Visitors"></div>
+  <section style="padding-top:40px">
+    <div class="wrap">
+      <button class="svc-back" onclick="go('patients')"><i class="fa-solid fa-arrow-left"></i> Back to Patients &amp; Visitors</button>
+      <div class="sec-head" style="margin-bottom:30px"><span class="eyebrow">Helpful information</span><h2>Patient &amp; Visitor's Guide</h2></div>
+      <div class="guide-tabs">
+        <button class="guide-tab active" data-tab="hmo" onclick="showGuideTab('hmo')">HMO Visitor's Guide</button>
+        <button class="guide-tab" data-tab="admission" onclick="showGuideTab('admission')">Admission</button>
+        <button class="guide-tab" data-tab="visiting" onclick="showGuideTab('visiting')">Visiting Guidelines</button>
+        <button class="guide-tab" data-tab="hmos" onclick="showGuideTab('hmos')">List of HMOs</button>
+      </div>
+
+      <!-- HMO VISITOR'S GUIDE -->
+      <div class="guide-panel" id="guide-hmo">
+        <div class="guide-img"><img src="assets/img/guide/hmo1.webp" alt="HMO Department" loading="lazy"></div>
+        <h3>For Out-patient Approval — Consultation</h3>
+        <h4>1. Initial Consultation</h4>
+        <ol class="guide-steps">
+          <li>Proceed to the Information/Lobby for proper directions to the doctors' offices. Ask the information staff which type of doctor is suitable for your illness.</li>
+          <li>Proceed to the HMO Department on the 3rd floor and present one valid ID and health card to the HMO staff.</li>
+          <li>The HMO staff will contact the HMO company to verify the member's status and eligibility.</li>
+          <li>Once approved, the patient will sign the approved Letter of Authorization (LOA), then proceed to the doctor's clinic.</li>
+          <li>Give the LOA to the doctor for signing.</li>
+        </ol>
+        <h4>2. Follow-up Consultation</h4>
+        <ol class="guide-steps">
+          <li>Direct to the HMO Department on the 3rd floor, then present one valid ID and health card to the HMO staff.</li>
+          <li>The HMO staff will contact the HMO company to verify the member's status and eligibility.</li>
+          <li>Once approved, the patient will sign the approved Letter of Authorization (LOA), then proceed to the doctor's clinic.</li>
+          <li>Give the LOA to the doctor for signing.</li>
+        </ol>
+        <h4>With Procedure and Laboratory Request</h4>
+        <ol class="guide-steps">
+          <li>Direct to the HMO Department on the 3rd floor, then present one valid ID and health card to the HMO staff.</li>
+          <li>The HMO staff will contact the HMO company to verify the member's status and eligibility.</li>
+          <li>Once approved, the patient will sign the approved Letter of Authorization (LOA), then proceed to the doctor's clinic.</li>
+          <li>Proceed to the designated department (Laboratory, Radiology, Heart Station, OB, Pulmo, etc.) and present the approved LOA to the hospital staff.</li>
+        </ol>
+      </div>
+
+      <!-- ADMISSION -->
+      <div class="guide-panel" id="guide-admission" hidden>
+        <div class="guide-img"><img src="assets/img/guide/admission1.webp" alt="Admission" loading="lazy"></div>
+        <h3>Direct Admission</h3>
+        <p>Refers to an approved patient for direct room admission without passing through the Emergency Room of Bicutan Medical Center, Inc., with medically necessary and appropriate care and treatment for illness or injury.</p>
+        <ol class="guide-steps">
+          <li><strong>Admitting Order</strong> — an order coming from the doctor that initiates the direct admission process. The date of the admitting order should be the same as the date of admission.</li>
+          <li><strong>Before admission</strong>, our admitting staff will request the following:
+            <ul class="guide-sub">
+              <li>Doctor's order for admission indicating the directives of the personal physician regarding the patient's case.</li>
+              <li>Valid Identification Card with photo, such as:
+                <ul>
+                  <li>Accredited HMO-issued member's ID</li>
+                  <li>Digitized SSS ID</li>
+                  <li>Driver's License</li>
+                  <li>GSIS ID</li>
+                  <li>Health insurance card or document</li>
+                  <li>Integrated Bar of the Philippines ID</li>
+                  <li>Passport</li>
+                  <li>Person with Disability ID</li>
+                  <li>PhilHealth ID</li>
+                  <li>PRC ID</li>
+                  <li>Senior Citizen ID</li>
+                  <li>Unified Multi-Purpose ID (UMID)</li>
+                </ul>
+              </li>
+              <li>HMO or Insurance Card</li>
+              <li>Letter of Guarantee or Letter of Authorization (LOA) from the company or HMO Coordinator</li>
+            </ul>
+          </li>
+          <li>Fill out and sign the forms necessary for the admission process.</li>
+          <li>Admitting staff will explain the policies of the hospital and what is indicated in the consent form.</li>
+        </ol>
+      </div>
+
+      <!-- VISITING GUIDELINES -->
+      <div class="guide-panel" id="guide-visiting" hidden>
+        <div class="guide-img"><img src="assets/img/guide/visit1.webp" alt="Visiting Guidelines" loading="lazy"></div>
+        <p>Visitors are an important part of the healing process, and we encourage family and friends to visit. However, rest is very important to a patient — so visiting hours and rules may vary by ward/unit, especially in Intensive Care Units.</p>
+        <h4>1. Visiting Time</h4>
+        <div class="guide-hours">
+          <div class="gh-card"><h5>Non-Critical Areas (GNU / Wards)</h5><p>9:00 AM – 11:00 AM</p><p>5:00 PM – 8:00 PM</p></div>
+          <div class="gh-card"><h5>Adult &amp; Pediatric ICU</h5><p>11:00 AM – 12:00 PM</p><p>6:00 PM – 7:00 PM</p></div>
+          <div class="gh-card"><h5>Neonatal ICU (NICU)</h5><p>9:00 AM – 11:00 AM</p><p>5:00 PM – 7:00 PM</p></div>
+        </div>
+        <h4>2. Age of Visitors</h4>
+        <p>Children below 7 years old are not allowed. However, if there is a request from the patient, they may be allowed provided there is proper coordination with the charge nurse/supervisor on duty and the guard on duty. Children should be primed by the family on what to expect and must be supervised at all times by a responsible adult who is not the patient.</p>
+        <h4>3. Visitors' Health</h4>
+        <p>Any visitor exposed to or having a communicable disease (tuberculosis, measles, mumps, rubella, pertussis, flu, or a cold/cough) should not visit patients.</p>
+        <h4>4. Number of Visitors</h4>
+        <p>It is usually best to limit visitors to two (2) at a time, to respect the comfort of all our patients.</p>
+        <h4>5. General Information</h4>
+        <ul class="guide-bullets">
+          <li>Staff members are happy to support the time you and your visitors have together. At times during your stay, they may ask visitors to leave for a short period while care is delivered or during some medical procedures.</li>
+          <li>Visitors should respect the privacy of others, stay quiet, and remain in the room they are visiting or in the waiting room. We aim to provide a calm and restful environment to help all patients recover.</li>
+          <li>Visitors and watchers are requested to refrain from making noise. Gambling is absolutely prohibited in the hospital.</li>
+          <li>Visitors should not sit or lie on patient beds, to prevent cross-infection.</li>
+          <li>Visitors must wear IDs at all times. IDs are available at the Security Guard in the Hospital Lobby.</li>
+          <li>Only one (1) watcher is allowed per patient. Watchers should secure a Watcher's Pass from the Security Guard at the Hospital Lobby.</li>
+          <li>Bringing of sleeping paraphernalia is not allowed for infection-control purposes; however, the patient's watcher may borrow linen or a blanket from the nursing unit.</li>
+        </ul>
+        <h4>6. Smoking / Drinking Alcoholic Beverages</h4>
+        <p>Smoking and drinking alcoholic beverages are strictly prohibited in all areas of the hospital.</p>
+        <h4>7. Use of Cellular Phones</h4>
+        <p>The use of cellular phones is prohibited where critical medical equipment is in operation and within six feet of any electronic patient-care equipment. If you must use your cellular phone, please speak in a low voice so as not to disturb others. Cellphone charging is strictly prohibited.</p>
+        <h4>8. Restricted Flower Deliveries</h4>
+        <p>Flowers for patients are welcome, but there are some areas where flowers cannot be permitted under any circumstances — especially in intensive care units, where they may promote infection. We encourage you to check with the nursing staff before sending or bringing flowers.</p>
+        <h4>9. Bringing of Firearms</h4>
+        <p>For security reasons, all firearms must be deposited at the Security Guard before entering hospital premises.</p>
+        <h4>10. Bringing of Latex Balloons</h4>
+        <p>Latex balloons, which can cause allergic reactions, are not permitted anywhere in the hospital.</p>
+        <h4>11. Special Considerations</h4>
+        <p>A religious group may be allowed to pray over a patient, provided that the patient's status is stable and there is no ongoing procedure at the bedside. The guard should coordinate with the head nurse/charge nurse of the unit and the NSOD. However, the number of persons doing the pray-over should be limited because of limited space.</p>
+        <h3>Visiting Guidelines (NICU)</h3>
+        <h4>1. Viewing Time for NICU / Outborn</h4>
+        <div class="guide-hours"><div class="gh-card"><h5>NICU / Outborn</h5><p>9:00 AM – 11:00 AM</p><p>5:00 PM – 7:00 PM</p></div></div>
+        <ol class="guide-steps" start="2">
+          <li>Only parents of critically ill neonates may be allowed to enter the NICU/Outborn anytime, with the permission of the Attending Physician.</li>
+          <li>Visitors, except children, may enter the NICU/Outborn one at a time and shall strictly observe hand washing and the no-jewelry policy, and must put on a gown and rubber slippers provided by the unit, as allowed by the Attending Physician.</li>
+          <li>Cellphones are not allowed inside the NICU/Outborn.</li>
+        </ol>
+      </div>
+
+      <!-- LIST OF HMOs -->
+      <div class="guide-panel" id="guide-hmos" hidden>
+        <h3>List of Accredited HMOs</h3>
+        <p>Bicutan Medical Center is proudly accredited with the country's leading HMOs and insurers for your convenience. We accept the following:</p>
+        <div class="guide-hmo-grid" id="guideHmoList"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ MEDICAL RECORDS ============ -->
+<div class="page" id="medicalRecords">
+  <div class="mr-banner"><img src="assets/img/banner/medical-records.png" alt="Medical Records"></div>
+  <section style="padding-top:40px">
+    <div class="wrap">
+      <button class="svc-back" onclick="go('patients')"><i class="fa-solid fa-arrow-left"></i> Back to Patients &amp; Visitors</button>
+      <div class="sec-head" style="text-align:left;max-width:none;margin-bottom:34px"><span class="eyebrow">Patients &amp; Visitors</span><h2>Medical Records</h2></div>
+      <div class="mr-grid">
+        <div class="mr-img"><img src="assets/img/medrecords/medical-records.webp" alt="Bicutan Medical Center Records Office"></div>
+        <div class="mr-content">
+          <h3>Transaction Hours and Schedule of Release</h3>
+          <p>The Medical Records Office accepts requests for medical records from <strong>Mondays to Fridays, 8:30 AM until 12 noon</strong>. Patients can request the following records with corresponding release schedules:</p>
+          <ul class="mr-list">
+            <li><strong>Birth Certificate</strong> — Within 10 working days</li>
+            <li><strong>Death Certificate</strong> — 1 to 2 working days</li>
+            <li><strong>Certificate of Confinement (CC)</strong> — Within the day of request</li>
+            <li><strong>Examination Results</strong> — Within the day of request (if available)</li>
+            <li><strong>Medical Certificate (MC)</strong> — Within 5 working days</li>
+            <li><strong>Discharge Summary (DS)</strong> — Within 7 working days</li>
+            <li><strong>Clinical Abstract (CA)</strong> — Within 7 working days</li>
+          </ul>
+          <h3>Claiming of Requested Results and Legal Documents</h3>
+          <ul class="mr-claim">
+            <li>If the <strong>patient</strong> is claiming the results/documents, a valid ID must be presented.</li>
+            <li>If an <strong>authorized representative</strong> is claiming the request, an authorization letter signed by the patient, a photocopy of the patient's valid ID, and the representative's valid ID must be provided.</li>
+          </ul>
+          <span class="mr-note">Open from 8:00 AM to 5:00 PM</span>
+          <div class="mr-contact">
+            <h4>Contact our Medical Records at:</h4>
+            <p><i class="fa-solid fa-phone"></i> <a href="tel:+63285381280">(02) 8538 1280</a> loc. 619</p>
+            <p><i class="fa-solid fa-location-dot"></i> 191 M.L. Quezon St., New Lower Bicutan, Taguig City</p>
+            <p>We highly encourage you to contact us on Viber.</p>
+            <a class="mr-viber" href="viber://chat?number=%2B639399109974" target="_blank" rel="noopener"><i class="fa-brands fa-viber"></i> Message us on Viber</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ DOCTORS ============ -->
+<div class="page" id="doctors">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Meet the team</span><h2>Our Specialists</h2><p>A dedicated team of board-certified physicians committed to your wellbeing.</p></div>
+      <div class="doc-controls">
+        <div class="doc-searchbar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="docSearchInput" placeholder="Search by doctor name…" autocomplete="off" oninput="docSearch(this.value)">
+          <button type="button" class="clr" id="docSearchClr" onclick="clearDocSearch()" aria-label="Clear"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="doc-specwrap" id="docSpecDropdown">
+          <button type="button" class="doc-spec-toggle" onclick="toggleSpecMenu(event)" aria-haspopup="listbox" aria-expanded="false">
+            <i class="fa-solid fa-stethoscope"></i>
+            <span id="docSpecLabel">All Specializations</span>
+            <i class="fa-solid fa-chevron-down chev"></i>
+          </button>
+          <ul class="doc-spec-menu" id="docSpecMenu" role="listbox"></ul>
+        </div>
+      </div>
+      <div class="grid g4" id="docGrid"></div>
+      <div class="pagination" id="docPaging"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ PATIENTS & VISITORS ============ -->
+<div class="page" id="patients">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Helpful information</span><h2>Patients &amp; Visitors</h2><p>Everything you need to know to make your visit smooth and stress-free.</p></div>
+      <div class="split">
+        <div>
+          <h3 style="font-size:1.6rem;margin-bottom:20px">Frequently Asked Questions</h3>
+          <div class="accordion" id="faq"></div>
+        </div>
+        <div class="info-card">
+          <h3>Visiting Hours</h3>
+          <p>We welcome family and friends during these times.</p>
+          <div class="hours-row"><span>General Wards</span><span>9:00 AM – 8:00 PM</span></div>
+          <div class="hours-row"><span>Intensive Care (ICU)</span><span>11:00 AM – 1:00 PM</span></div>
+          <div class="hours-row"><span>Maternity</span><span>10:00 AM – 7:00 PM</span></div>
+          <div class="hours-row"><span>Pediatrics</span><span>Open to parents 24/7</span></div>
+          <div class="hours-row"><span>Emergency Dept.</span><span>Always Open</span></div>
+        </div>
+      </div>
+      <div class="visit-grid">
+        <div class="vc"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h4>Before You Arrive</h4><p>Bring a valid ID, insurance card, and a list of current medications.</p></div>
+        <div class="vc"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div><h4>Parking & Access</h4><p>Free on-site parking with wheelchair access at the main and ER entrances.</p></div>
+        <div class="vc"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h4>Patient Support</h4><p>Interpreters, financial counseling, and chaplaincy available on request.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ ABOUT US ============ -->
+<div class="page" id="about">
+  <section>
+    <div class="wrap">
+      <div class="about-hero">
+        <img src="assets/img/facility/facility1.webp" alt="Bicutan Medical Center facility" loading="lazy" decoding="async">
+        <div>
+          <span class="eyebrow">Bicutan Medical Center Inc.</span>
+          <h2 style="font-size:2.6rem;margin-bottom:16px">About Us</h2>
+          <p style="color:var(--slate);margin-bottom:14px">At Bicutan Medical Center, we go beyond standard healthcare by providing expert-driven, patient-centered care tailored to every individual. As a 100-bed capacity hospital, we are equipped to serve a wide range of medical needs while maintaining a personalized and compassionate approach.</p>
+          <p style="color:var(--slate);margin-bottom:14px">Our highly skilled team of doctors, nurses, and support staff work together to ensure that every patient receives the best possible care. We offer comprehensive medical services, from routine check-ups to specialized diagnostics, using advanced technology to provide accurate and efficient results. Our hospital is equipped with 2D echo, CT scan, and other modern diagnostic tools, allowing us to deliver precise and timely assessments.</p>
+          <p style="color:var(--slate)">Designed with patient comfort in mind, our facility features welcoming waiting areas, private consultation rooms, and cutting-edge medical equipment to create a seamless healthcare experience. At Bicutan Medical Center, we are committed to <strong style="color:var(--teal-dark)">Caring for Life</strong>, ensuring that every patient receives compassionate, high-quality medical care when they need it most.</p>
+        </div>
+      </div>
+
+      <div class="sec-head" style="margin-top:74px;margin-bottom:0"><span class="eyebrow">What drives us</span><h2>Our Vision &amp; Mission</h2></div>
+      <div class="vm-grid">
+        <div class="vm-card vis">
+          <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Our Vision</h3>
+          <p>To be the leading affordable hospitals, setting the standard for accessible and advanced healthcare by 2028.</p>
+        </div>
+        <div class="vm-card mis">
+          <div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <h3>Our Mission</h3>
+          <p>To provide quality and affordable healthcare to the community.</p>
+        </div>
+      </div>
+
+      <div class="sec-head" style="margin-top:74px;margin-bottom:0"><span class="eyebrow">The BMCI way</span><h2>Our Core Values</h2></div>
+      <div class="corevals">
+        <div class="cv"><div class="letter">B</div><h4>Best Care</h4><p>We are committed to provide and develop excellent medical care and services.</p></div>
+        <div class="cv"><div class="letter">M</div><h4>Mutual Respect</h4><p>We will create an atmosphere that values and respects everyone.</p></div>
+        <div class="cv"><div class="letter">C</div><h4>Compassion</h4><p>We treat everyone with empathy, dignity, and understanding.</p></div>
+        <div class="cv"><div class="letter">I</div><h4>Integrity</h4><p>We shall conduct ourselves with high standards of professionalism and ethics.</p></div>
+      </div>
+
+      <div class="cta-banner" style="margin-top:74px">
+        <h2>Drop us a message</h2>
+        <p>If you have any questions or would like to schedule an appointment, please call us at <strong>02 8538 1280</strong>.</p>
+        <button class="btn" onclick="goContact('appointment')">Contact Us →</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ FEEDBACK ============ -->
+<div class="page" id="feedback">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">We're listening</span><h2>Online Feedback Form</h2><p>Your feedback helps us enhance the quality of our services and patient care.</p></div>
+      <div class="fb-layout">
+      <div class="privacy-card">
+        <h3>Your Privacy Matters to Us</h3>
+        <p>We value your trust and are committed to ensuring the privacy and confidentiality of your personal information. By participating in this survey, you agree to the following:</p>
+        <div class="privacy-point"><h4>Data Collection and Use</h4><p>The information collected through this survey will be used solely to improve our hospital services and patient care. Your responses will help us identify areas where we can enhance our services and address any concerns you may have.</p></div>
+        <div class="privacy-point"><h4>Confidentiality</h4><p>All responses are confidential. Individual responses will not be linked to your personal information. Your feedback will be aggregated and analyzed collectively to ensure your anonymity.</p></div>
+        <div class="privacy-point"><h4>Data Security</h4><p>We employ appropriate technical and organizational measures to protect the personal data we collect and process. Your data will be stored securely, and access will be restricted to authorized personnel only.</p></div>
+        <div class="privacy-point"><h4>Contact Information</h4><p>If you have any questions about this survey or how your data will be used, please contact the BicutanMed Information Department at <a href="tel:+63285381280">(02) 8538-1280</a> or <a href="tel:+639399109974">0939 910 9974</a>.</p></div>
+        <p class="privacy-ack">By proceeding with the survey, you acknowledge that you have read and understood this privacy statement and agree to the terms outlined above.</p>
+      </div>
+      <div class="feedback-cta">
+        <h3>Your opinion matters to us!</h3>
+        <p>Thank you for taking the time to share your feedback with us. Your input is invaluable in helping us enhance the quality of our services. This form is designed to gather your experiences and suggestions related to various departments within our center. Please take a few minutes to complete the form.</p>
+        <a class="btn" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__oDBVmxUMkVUU0pUM1c4RTlHNjFKN1U0MzU4STI5UC4u" target="_blank" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> Online Feedback Form</a>
+      </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<!-- MAP LIGHTBOX -->
+<div class="lightbox" id="mapLightbox" onclick="closeMapLightbox(event)">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" onclick="closeMapLightbox(event)" aria-label="Close">&times;</button>
+    <img src="assets/img/map/map.webp" alt="Map of Bicutan Medical Center area — enlarged">
+    <div class="lightbox-cap"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> 191 M. L. Quezon Ave, Taguig, 1632 Metro Manila</div>
+  </div>
+</div>
+
+<!-- FACILITY GALLERY LIGHTBOX -->
+<div class="lightbox" id="facLightbox" onclick="closeFac(event)">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" onclick="closeFac(event)" aria-label="Close">&times;</button>
+    <button class="lb-nav prev" onclick="facNav(-1,event)" aria-label="Previous">&#8249;</button>
+    <img id="facImg" src="" alt="Facility photo">
+    <button class="lb-nav next" onclick="facNav(1,event)" aria-label="Next">&#8250;</button>
+    <div class="lightbox-cap" id="facCap"></div>
+  </div>
+</div>
+
+<!-- WHAT'S NEW ARTICLE MODAL -->
+<div class="news-modal" id="newsModal" onclick="closeNews(event)" aria-hidden="true">
+  <div class="news-modal-inner" role="dialog" aria-modal="true" aria-labelledby="nmTitle">
+    <button class="news-modal-close" onclick="closeNews(event)" aria-label="Close">&times;</button>
+    <div class="news-modal-scroll">
+      <div class="news-modal-grid">
+        <div class="news-modal-main">
+          <h2 id="nmTitle"></h2>
+          <div class="news-modal-meta"><span id="nmDate"></span><span class="dot">|</span><span id="nmCat"></span></div>
+          <div class="news-modal-img"><img id="nmImg" src="" alt=""></div>
+          <div class="news-modal-text" id="nmText"></div>
+          <div class="news-modal-share">
+            <span class="share-label">Share this post:</span>
+            <div class="share-btns">
+              <a id="nmShareFb" target="_blank" rel="noopener" aria-label="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a id="nmShareX" target="_blank" rel="noopener" aria-label="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
+              <button type="button" id="nmCopy" aria-label="Copy link"><i class="fa-solid fa-link"></i></button>
+            </div>
+          </div>
+        </div>
+        <aside class="news-modal-aside">
+          <h4>Recent Posts</h4>
+          <div id="nmRecent"></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BACK TO TOP -->
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- CHAT WIDGET -->
+<button class="chat-fab" id="chatFab" onclick="toggleChat()" aria-label="Open chat">
+  <i class="fa-solid fa-comment-dots"></i><i class="fa-solid fa-xmark"></i>
+</button>
+<div class="chat-win" id="chatWin" role="dialog" aria-label="BMC Assistant">
+  <div class="chat-head">
+    <span class="ava"><img src="assets/img/logo/logo1.png" alt="BMC"></span>
+    <div><h4>BMC Assistant</h4><span class="stat">Online · Quick answers</span></div>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+  <form class="chat-input" onsubmit="chatSend(event)">
+    <input type="text" id="chatInput" placeholder="Type your question…" autocomplete="off">
+    <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a class="logo" href="#" onclick="go('home');return false"><img class="logo-mark" src="assets/img/logo/logo1.png" alt="BicutanMed logo"><span class="logo-word">BicutanMed</span></a>
+        <p>Top-quality, compassionate healthcare for the Taguig community — open 24 hours, every day.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/bicutanmedicalcenter" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/bicutanmedicalcenter/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@bicutanmed" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="foot-col"><h5>Quick Links</h5><a onclick="go('services')">Services</a><a onclick="go('doctors')">Find a Doctor</a><a onclick="go('patients')">Patients & Visitors</a><a onclick="go('about')">About Us</a></div>
+      <div class="foot-col"><h5>Patients</h5><a onclick="goContact('appointment')">Book Appointment</a><a onclick="goContact('feedback')">Give Feedback</a><a onclick="go('patients')">Visiting Hours</a><a href="tel:+639399109974">Billing Support</a></div>
+      <div class="foot-col"><h5>Contact</h5><p>191 M.L. Quezon St., New Lower Bicutan, Taguig City</p><p>📞 <a href="tel:+639399109974" style="display:inline">+63 939 910 9974</a></p><p>☎️ <a href="tel:+63285381280" style="display:inline">02 8538 1280</a></p><p>✉️ <a href="mailto:infoadmittingbmci@gmail.com" style="display:inline">infoadmittingbmci@gmail.com</a></p></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Bicutan Medical Center. All rights reserved.</span>
+      <span>Privacy Policy · Terms of Service · Accessibility</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=20260606a"></script>
+</body>
+</html>
